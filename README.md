@@ -4,7 +4,7 @@ A curated collection of most frequently used flutter snippets
 
 - [Widgets](#widgets)
   - [Stateless](#stateless)
-  - [StatefulWidget](#stateful)
+  - [StatefulWidget](#statefulwidget)
 - [Utilities](#utilities)
 
 ## Widgets
@@ -38,6 +38,7 @@ StreamBuilder(
 ),
 ```
 ### StatefulWidget
+Creates StatefulWidget
 ```dart
 class StatefulWidget extends StatefulWidget{
   StatefulWidgetState createState()=>  StatefulWidgetState();
