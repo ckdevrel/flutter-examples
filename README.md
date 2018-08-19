@@ -22,4 +22,14 @@ A curated collection of most frequently used flutter snippets
 fun View.getString(stringResId: Int): String = resources.getString(stringResId)
 ```
 
+## Context
+
+
+
+```dart
+/**
+ * Extension method to provide simpler access to {@link View#getResources()#getString(int)}.
+ */
+fun View.getString(stringResId: Int): String = resources.getString(stringResId)
+```
 
