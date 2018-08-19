@@ -7,18 +7,34 @@ A curated collection of most frequently used flutter snippets
 
 ## Widgets
 
-
+### Creates StatelessWidget
 ```dart
-/**
- * Extension method to provide simpler access to {@link View#getResources()#getString(int)}.
- */
-fun View.getString(stringResId: Int): String = resources.getString(stringResId)
+class name extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+```
+
+### Creates StatefulWidget
+```dart
+class StatefulWidget extends StatefulWidget{
+  StatefulWidgetState createState()=>  StatefulWidgetState();
+}
+
+
+class StatefulWidgetState extends State<StatefulWidget> {
+  @override
+  Widget build(BuildContext context){
+    return Container();
+  }
+}
 ```
 
 ## Utilities
 
 ### Creating Color Utils
-
 ```dart
 class AppColors {
   static const Color colorPrimary = Color.fromARGB(255, 51, 51, 51);
