@@ -3,12 +3,14 @@ A curated collection of most frequently used flutter snippets
 
 
 - [Widgets](#widgets)
-   -- Stateless
+  - [Stateless](#stateless)
 - [Utilities](#utilities)
 
 ## Widgets
 
-### Creates StatelessWidget
+### Stateless
+
+#### Creates StatelessWidget
 ```dart
 class name extends StatelessWidget {
   @override
