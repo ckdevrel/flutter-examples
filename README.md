@@ -11,7 +11,7 @@ A curated collection of most frequently used flutter snippets
 - [String](#string)
 - [Other](#other)
 
-## Material
+## Material Design
 
 
 
