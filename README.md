@@ -4,13 +4,14 @@ A curated collection of most frequently used flutter snippets
 
 - [Widgets](#widgets)
   - [Stateless](#stateless)
+  - [StatefulWidget](#stateful)
 - [Utilities](#utilities)
 
 ## Widgets
 
 ### Stateless
 
-#### Creates StatelessWidget
+Creates StatelessWidget
 ```dart
 class name extends StatelessWidget {
   @override
@@ -19,31 +20,14 @@ class name extends StatelessWidget {
   }
 }
 ```
-
-### Creates StatefulWidget
-```dart
-class StatefulWidget extends StatefulWidget{
-  StatefulWidgetState createState()=>  StatefulWidgetState();
-}
-
-
-class StatefulWidgetState extends State<StatefulWidget> {
-  @override
-  Widget build(BuildContext context){
-    return Container();
-  }
-}
-```
-
-### Creates SingleChildScrollView
+Creates SingleChildScrollView
 ```dart
 SingleChildScrollView(
   controller: controller,
   child: Column(),
 ),
 ```
-
-### Creates StreamBuilder
+Creates StreamBuilder
 ```dart
 StreamBuilder(
   stream: stream ,
@@ -53,8 +37,20 @@ StreamBuilder(
   },
 ),
 ```
+### StatefulWidget
+```dart
+class StatefulWidget extends StatefulWidget{
+  StatefulWidgetState createState()=>  StatefulWidgetState();
+}
 
-### Creates StatefulBuilder
+class StatefulWidgetState extends State<StatefulWidget> {
+  @override
+  Widget build(BuildContext context){
+    return Container();
+  }
+}
+```
+Creates StatefulBuilder
 ```dart
 StatefulBuilder(
   builder: (BuildContext context, setState) {
