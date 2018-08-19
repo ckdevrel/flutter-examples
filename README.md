@@ -1,7 +1,3 @@
-# Flutter Snippets
-A curated collection of most frequently used flutter snippets
-
-
 - [Widgets](#widgets)
   - [Stateless](#stateless)
   - [StatefulWidget](#statefulwidget)
