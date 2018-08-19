@@ -2,7 +2,7 @@
 A curated collection of most frequently used flutter snippets
 
 
-- [Material Design](#view)
+- [Material Design](#material)
 - [Context](#context)
 - [Fragment](#fragment)
 - [Activity](#activity)
@@ -11,7 +11,7 @@ A curated collection of most frequently used flutter snippets
 - [String](#string)
 - [Other](#other)
 
-## Material Design
+## Material
 
 
 
