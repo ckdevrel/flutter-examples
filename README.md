@@ -39,19 +39,10 @@ class AppColors {
   static const Color white = Color.fromARGB(255, 255, 255, 255);
   static const Color white_secondary = Color.fromARGB(255, 220, 220, 220);
   static const Color white_un_selected = Color.fromARGB(255, 180, 180, 180);
-
-  static const Color github_blue = Color.fromARGB(255, 64, 120, 192);
-  static const Color github_black = Color.fromARGB(255, 37, 41, 46);
-  static const Color github_icons_grey = Color.fromARGB(255, 200, 201, 203);
-
   static const Color indigo = Color.fromARGB(255, 51, 105, 231);
-
   static const Color primary_text = Color.fromARGB(255, 51, 51, 51);
   static const Color secondary_text = Color.fromARGB(255, 114, 114, 114);
-
-  static const Color so_orange = Color.fromARGB(255, 244, 128, 36);
   static const Color grey = Color.fromARGB(255, 188, 187, 187);
-
 }
 ```
 
