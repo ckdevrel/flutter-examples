@@ -2,17 +2,10 @@
 A curated collection of most frequently used flutter snippets
 
 
-- [Material Design](#material)
-- [Utils](#utils)
-- [Fragment](#fragment)
-- [Activity](#activity)
-- [ViewGroup](#viewgroup)
-- [TextView](#textview)
-- [String](#string)
-- [Other](#other)
+- [Widgets](#widgets)
+- [Utilities](#utilities)
 
-## Material
-
+## Widgets
 
 
 ```dart
@@ -22,7 +15,7 @@ A curated collection of most frequently used flutter snippets
 fun View.getString(stringResId: Int): String = resources.getString(stringResId)
 ```
 
-## Utils
+## Utilities
 
 ### Creating Color Utils
 
