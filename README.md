@@ -3,6 +3,7 @@ A curated collection of most frequently used flutter snippets
 
 
 - [Widgets](#widgets)
+   -- Stateless
 - [Utilities](#utilities)
 
 ## Widgets
