@@ -1,11 +1,8 @@
 # Flutter Snippets
 A curated collection of most frequently used flutter snippets
 
-# Kotlin Extensions
 
-> Curated list of Most commonly used Kotlin Extensions.
-
-- [View](#view)
+- [Material Design](#view)
 - [Context](#context)
 - [Fragment](#fragment)
 - [Activity](#activity)
@@ -14,7 +11,7 @@ A curated collection of most frequently used flutter snippets
 - [String](#string)
 - [Other](#other)
 
-## View
+## Material Design
 
 
 
