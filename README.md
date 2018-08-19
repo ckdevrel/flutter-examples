@@ -62,7 +62,7 @@ StatefulBuilder(
 
 ## Utilities
 
-### Creating Color Utils
+Creates Color Utils
 ```dart
 class AppColors {
   static const Color colorPrimary = Color.fromARGB(255, 51, 51, 51);
