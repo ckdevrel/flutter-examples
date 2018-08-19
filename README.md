@@ -3,7 +3,7 @@ A curated collection of most frequently used flutter snippets
 
 
 - [Material Design](#material)
-- [Context](#context)
+- [Utils](#utils)
 - [Fragment](#fragment)
 - [Activity](#activity)
 - [ViewGroup](#viewgroup)
@@ -53,5 +53,5 @@ class AppColors {
   static const Color grey = Color.fromARGB(255, 188, 187, 187);
 
 }
-```dart
+```
 
