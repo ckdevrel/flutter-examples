@@ -32,6 +32,34 @@ class StatefulWidgetState extends State<StatefulWidget> {
 }
 ```
 
+### Creates SingleChildScrollView
+```dart
+SingleChildScrollView(
+  controller: controller,
+  child: Column(),
+),
+```
+
+### Creates StreamBuilder
+```dart
+StreamBuilder(
+  stream: stream ,
+  initialData: initialData ,
+  builder: (BuildContext context, AsyncSnapshot snapshot){
+    return Container();
+  },
+),
+```
+
+### Creates StatefulBuilder
+```dart
+StatefulBuilder(
+  builder: (BuildContext context, setState) {
+    return Container();
+  },
+),
+```
+
 ## Utilities
 
 ### Creating Color Utils
