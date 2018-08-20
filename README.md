@@ -9,7 +9,7 @@
 
 ## Widgets
 
-### Container
+## Container
 ![containers.png]({{site.baseurl}}/media/containers.png)
 
 ```dart
@@ -22,7 +22,7 @@ Container(
       ),
 ```
 
-### Row
+## Row
 ![row.png]({{site.baseurl}}/media/row.png)
 
 ```dart
@@ -56,7 +56,7 @@ new Row(
       ),
  ```     
 
-### Column
+## Column
 ![column.png]({{site.baseurl}}/media/column.png)
 
 ```dart
