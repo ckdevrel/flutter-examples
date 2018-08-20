@@ -3,7 +3,7 @@
 - [Widgets](#widgets)
   - [Container](#container)
   - [Row](#row)
-
+  - [Column](#column)
 
 - [Utilities](#utilities)
 
