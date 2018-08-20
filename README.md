@@ -1,7 +1,7 @@
 # Getting Started
 
 - [Widgets](#widgets)
-  - [Containers](#container)
+  - [Container](#container)
   - [StatefulWidget](#statefulwidget)
 - [Utilities](#utilities)
 
