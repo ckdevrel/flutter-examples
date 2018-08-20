@@ -4,7 +4,7 @@
   - [Container](#container)
   - [Row](#row)
   - [Column](#column)
-
+  - [Text](#text)
 - [Utilities](#utilities)
 
 ## Widgets
@@ -83,6 +83,20 @@ Column(
         ],
       ),
  ```     
+
+## Text
+![text.png]({{site.baseurl}}/media/text.png)
+
+```dart
+new Text(
+            "Flutter is Awesome",
+            style: new TextStyle(
+                fontSize: 18.0,
+                color: Colors.greenAccent,
+                fontWeight: FontWeight.w500,
+                fontFamily: "Roboto"),
+          ),
+```          
 ## Utilities
 
 Creates Color Utils
