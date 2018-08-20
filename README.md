@@ -10,8 +10,6 @@
 ### Containers
 
 
-![]({{site.baseurl}}//container.png)
-
 ```dart
 new Container(
         padding: const EdgeInsets.all(0.0),
