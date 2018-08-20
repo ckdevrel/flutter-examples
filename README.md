@@ -2,7 +2,9 @@
 
 - [Widgets](#widgets)
   - [Container](#container)
-  - [StatefulWidget](#statefulwidget)
+  - [Row](#row)
+)
+
 - [Utilities](#utilities)
 
 ## Widgets
@@ -11,7 +13,7 @@
 ![container]({{site.baseurl}}/media/container.png)
 
 ```dart
-new Container(
+Container(
         padding: const EdgeInsets.all(0.0),
         alignment: Alignment.center,
         color: Colors.cyanAccent,
@@ -20,6 +22,38 @@ new Container(
       ),
 ```
 
+### Row
+![row.png]({{site.baseurl}}/media/row.png)
+```dart
+new Row(
+        mainAxisAlignment: MainAxisAlignment.start,
+        mainAxisSize: MainAxisSize.max,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: <Widget>[
+          Container(
+            padding: const EdgeInsets.all(0.0),
+            alignment: Alignment.center,
+            color: Colors.cyanAccent,
+            width: 198.0,
+            height: 177.0,
+          ),
+          Container(
+            padding: const EdgeInsets.all(0.0),
+            alignment: Alignment.center,
+            color: Colors.blueAccent,
+            width: 198.0,
+            height: 177.0,
+          ),
+          Container(
+            padding: const EdgeInsets.all(0.0),
+            alignment: Alignment.center,
+            color: Colors.orangeAccent,
+            width: 198.0,
+            height: 177.0,
+          ),
+        ],
+      ),
+ ```     
 
 ## Utilities
 
