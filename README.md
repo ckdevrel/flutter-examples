@@ -14,6 +14,9 @@
 new Container(
         padding: const EdgeInsets.all(0.0),
         alignment: Alignment.center,
+        color: Colors.cyanAccent,
+        width: 198.0,
+        height: 177.0,
       ),
 ```
 
