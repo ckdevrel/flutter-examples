@@ -8,7 +8,7 @@
 ## Widgets
 
 ### Containers
-![]({{site.baseurl}}/https://github.com/devsolabs/FlutterExamples/blob/master/container.png)
+![container]({{site.baseurl}}//container.png)
 
 ```dart
 new Container(
