@@ -5,6 +5,8 @@
   - [Row](#row)
   - [Column](#column)
   - [Text](#text)
+  - [Icon](#icon)
+
 - [Utilities](#utilities)
 
 ## Widgets
