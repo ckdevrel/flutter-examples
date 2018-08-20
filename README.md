@@ -77,7 +77,7 @@ Column(
             padding: const EdgeInsets.all(0.0),
             alignment: Alignment.center,
             color: Colors.orangeAccent,
-            width: .0,
+            width: 80.0,
             height: 80.0,
           ),
         ],
