@@ -56,6 +56,33 @@ new Row(
       ),
  ```     
 
+### Column
+![column.png]({{site.baseurl}}/media/column.png)
+
+```dart
+Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        mainAxisSize: MainAxisSize.max,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: <Widget>[
+          Container(
+            padding: const EdgeInsets.all(0.0),
+            alignment: Alignment.center,
+            color: Colors.cyanAccent,
+            width: 80.0,
+            height: 80.0,
+          ),
+
+          Container(
+            padding: const EdgeInsets.all(0.0),
+            alignment: Alignment.center,
+            color: Colors.orangeAccent,
+            width: .0,
+            height: 80.0,
+          ),
+        ],
+      ),
+ ```     
 ## Utilities
 
 Creates Color Utils
