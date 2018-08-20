@@ -1,62 +1,20 @@
 # Getting Started
 
 - [Widgets](#widgets)
-  - [Stateless](#stateless)
+  - [Containers](#container)
   - [StatefulWidget](#statefulwidget)
 - [Utilities](#utilities)
 
 ## Widgets
 
-### Stateless
+### Containers
+```dart
+new Container(
+        padding: const EdgeInsets.all(0.0),
+        alignment: Alignment.center,
+      ),
+```
 
-Creates StatelessWidget
-```dart
-class name extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
-```
-Creates SingleChildScrollView
-```dart
-SingleChildScrollView(
-  controller: controller,
-  child: Column(),
-),
-```
-Creates StreamBuilder
-```dart
-StreamBuilder(
-  stream: stream ,
-  initialData: initialData ,
-  builder: (BuildContext context, AsyncSnapshot snapshot){
-    return Container();
-  },
-),
-```
-### StatefulWidget
-Creates StatefulWidget
-```dart
-class StatefulWidget extends StatefulWidget{
-  StatefulWidgetState createState()=>  StatefulWidgetState();
-}
-
-class StatefulWidgetState extends State<StatefulWidget> {
-  @override
-  Widget build(BuildContext context){
-    return Container();
-  }
-}
-```
-Creates StatefulBuilder
-```dart
-StatefulBuilder(
-  builder: (BuildContext context, setState) {
-    return Container();
-  },
-),
-```
 
 ## Utilities
 
