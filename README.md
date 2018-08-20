@@ -8,7 +8,7 @@
 ## Widgets
 
 ### Containers
-![container]({{site.baseurl}}//container.png)
+![container.png]({{site.baseurl}}/media/container.png)
 
 ```dart
 new Container(
