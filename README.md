@@ -96,7 +96,15 @@ new Text(
                 fontWeight: FontWeight.w500,
                 fontFamily: "Roboto"),
           ),
-```          
+```
+
+## Icon
+![icon.png]({{site.baseurl}}/media/icon.png)
+```dart
+new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
+```
+
+              
 ## Utilities
 
 Creates Color Utils
