@@ -1,5 +1,4 @@
-<script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy us a coffee', '#b446b8', 'U6U0GSTS');kofiwidget2.draw();</script> 
-
+[![ko-fi](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/U6U0GSTS)
 
 # Getting Started
 
