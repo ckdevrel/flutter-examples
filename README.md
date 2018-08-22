@@ -29,7 +29,7 @@ Container(
 
 ## Row
 
-| MainAxisAlignment.center  | MainAxisAlignment.start |
+| 			MainAxisAlignment.center  			| 			MainAxisAlignment.start 			|
 |--|--|
 | ![row_center.png]({{site.baseurl}}/media/row_center.png) | ![row_center.png]({{site.baseurl}}/media/row_center.png) |
 
