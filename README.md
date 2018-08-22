@@ -28,7 +28,11 @@ Container(
 ```
 
 ## Row
-![row_center.png]({{site.baseurl}}/media/row_center.png)
+
+| MainAxisAlignment.center  | MainAxisAlignment.start |
+|--|--|
+| ![row_center.png]({{site.baseurl}}/media/row_center.png) | ![row_center.png]({{site.baseurl}}/media/row_center.png) |
+
 
 ```dart
  body: Container(
