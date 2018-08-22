@@ -31,7 +31,6 @@ Container(
 
 |MainAxisAlignment.center|MainAxisAlignment.start|MainAxisAlignment.end|
 |:--:|:--:|:--:|
-
 |![row_center.png]({{site.baseurl}}/media/row_center.png) |![row_start.png]({{site.baseurl}}/media/row_start.png)|![row_center.png]({{site.baseurl}}/media/row_center.png)|
 
 
