@@ -1,3 +1,4 @@
+
 <a href='https://ko-fi.com/U6U0GSTS' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 # Getting Started
@@ -27,36 +28,42 @@ Container(
 ```
 
 ## Row
-![row.png]({{site.baseurl}}/media/row.png)
+![row_center.png]({{site.baseurl}}/media/row_center.png)
 
 ```dart
-new Row(
-        mainAxisAlignment: MainAxisAlignment.start,
-        mainAxisSize: MainAxisSize.max,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: <Widget>[
-          Container(
-            padding: const EdgeInsets.all(0.0),
-            alignment: Alignment.center,
-            color: Colors.cyanAccent,
-            width: 80.0,
-            height: 80.0,
-          ),
-          Container(
-            padding: const EdgeInsets.all(0.0),
-            alignment: Alignment.center,
-            color: Colors.blueAccent,
-            width: 80.0,
-            height: 80.0,
-          ),
-          Container(
-            padding: const EdgeInsets.all(0.0),
-            alignment: Alignment.center,
-            color: Colors.orangeAccent,
-            width: 80.0,
-            height: 80.0,
-          ),
-        ],
+ body: Container(
+        padding: const EdgeInsets.all(20.0),
+        alignment: Alignment.center,
+        color: Colors.grey.shade300,
+        height: 140.0,
+        child: new Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisSize: MainAxisSize.max,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: <Widget>[
+            Container(
+              padding: const EdgeInsets.all(0.0),
+              alignment: Alignment.center,
+              color: Colors.cyanAccent,
+              width: 80.0,
+              height: 80.0,
+            ),
+            Container(
+              padding: const EdgeInsets.all(0.0),
+              alignment: Alignment.center,
+              color: Colors.blueAccent,
+              width: 80.0,
+              height: 80.0,
+            ),
+            Container(
+              padding: const EdgeInsets.all(0.0),
+              alignment: Alignment.center,
+              color: Colors.orangeAccent,
+              width: 80.0,
+              height: 80.0,
+            ),
+          ],
+        ),
       ),
  ```     
 
