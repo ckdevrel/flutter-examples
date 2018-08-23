@@ -55,6 +55,25 @@ new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
 
 ## Button
 
+## Flat Button
+
+
+![flat_ button.png]({{site.baseurl}}/media/flat_ button.png)
+
+```dart
+FlatButton(
+          onPressed: () {
+            debugPrint('I am Awesome');
+          },
+          textColor: Colors.white,
+          color: Colors.blueAccent,
+          disabledColor: Colors.grey,
+          disabledTextColor: Colors.white,
+          highlightColor: Colors.orangeAccent,
+          child: Text('Flat Button'),
+        ),
+```    
+
 ## Raised Button
 
 
@@ -67,8 +86,9 @@ RaisedButton(
           },
           textColor: Colors.white,
           color: Colors.blueAccent,
-          disabledColor: Colors.blueGrey,
-          highlightColor: Colors.greenAccent,
+     	  disabledColor: Colors.grey,
+          disabledTextColor: Colors.white,
+          highlightColor: Colors.orangeAccent,
           elevation: 4.0,
           child: Text('Raised Button'),
         ),
