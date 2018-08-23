@@ -53,7 +53,7 @@ new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
 
 ### MainAxisAlignment
 
-|.spaceEvenly|.spaceAround|.spaceBetween|
+|.center|.start|.end|
 |:--:|:--:|:--:|
 |![row_center.png]({{site.baseurl}}/media/row_center.png) |![row_start.png]({{site.baseurl}}/media/row_start.png)|![row_end.png]({{site.baseurl}}/media/row_end.png)|
 
