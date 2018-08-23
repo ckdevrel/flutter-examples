@@ -1,7 +1,6 @@
 
 <a href='https://ko-fi.com/U6U0GSTS' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
-
 # Getting Started
 
 - [Widgets](#widgets)
@@ -63,9 +62,6 @@ new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
 |![row_equally.png]({{site.baseurl}}/media/row_equally.png) |![row_between.png]({{site.baseurl}}/media/row_between.png) |![row_around.png]({{site.baseurl}}/media/row_around.png)|
 
 
-
-
-
 ```dart
    Container(
         padding: const EdgeInsets.all(20.0),
@@ -104,30 +100,51 @@ new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
  ```     
 
 ## Column
-![column.png]({{site.baseurl}}/media/column.png)
+
+|.center|.start|.end|
+|:--:|:--:|:--:|
+|![col_center.png]({{site.baseurl}}/media/col_center.png) |![col_start.png]({{site.baseurl}}/media/col_start.png)|![col_end.png]({{site.baseurl}}/media/col_end.png)|
+
+
+|.spaceEvenly|.spaceAround|.spaceBetween|
+|:--:|:--:|:--:|
+|![col_equally.png]({{site.baseurl}}/media/col_equally.png) |![col_between.png]({{site.baseurl}}/media/col_between.png) |![col_around.png]({{site.baseurl}}/media/col_around.png)|
+
 
 ```dart
-Column(
-        mainAxisAlignment: MainAxisAlignment.start,
-        mainAxisSize: MainAxisSize.max,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: <Widget>[
-          Container(
-            padding: const EdgeInsets.all(0.0),
-            alignment: Alignment.center,
-            color: Colors.cyanAccent,
-            width: 80.0,
-            height: 80.0,
-          ),
-
-          Container(
-            padding: const EdgeInsets.all(0.0),
-            alignment: Alignment.center,
-            color: Colors.orangeAccent,
-            width: 80.0,
-            height: 80.0,
-          ),
-        ],
+Container(
+        alignment: Alignment.center,
+        color: Colors.grey.shade300,
+        height: 300.0,
+        width: 120.0,
+        child: new Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisSize: MainAxisSize.max,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: <Widget>[
+            Container(
+              padding: const EdgeInsets.all(0.0),
+              alignment: Alignment.center,
+              color: Colors.cyanAccent,
+              width: 80.0,
+              height: 80.0,
+            ),
+            Container(
+              padding: const EdgeInsets.all(0.0),
+              alignment: Alignment.center,
+              color: Colors.blueAccent,
+              width: 80.0,
+              height: 80.0,
+            ),
+            Container(
+              padding: const EdgeInsets.all(0.0),
+              alignment: Alignment.center,
+              color: Colors.orangeAccent,
+              width: 80.0,
+              height: 80.0,
+            ),
+          ],
+        ),
       ),
  ```     
 
