@@ -1,14 +1,16 @@
 
 <a href='https://ko-fi.com/U6U0GSTS' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
+
 # Getting Started
 
 - [Widgets](#widgets)
   - [Container](#container)
-  - [Row](#row)
-  - [Column](#column)
   - [Text](#text)
   - [Icon](#icon)
+  - [Row](#row)
+  - [Column](#column)
+  
 
 - [Utilities](#utilities)
 
@@ -27,11 +29,37 @@ Container(
       ),
 ```
 
+## Text
+![text.png]({{site.baseurl}}/media/text.png)
+
+```dart
+new Text(
+            "Flutter is Awesome",
+            style: new TextStyle(
+                fontSize: 18.0,
+                color: Colors.greenAccent,
+                fontWeight: FontWeight.w500,
+                fontFamily: "Roboto"),
+          ),
+```
+
+## Icon
+![icon.png]({{site.baseurl}}/media/icon.png)
+```dart
+new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
+```
+
 ## Row
 
 |MainAxisAlignment.center|MainAxisAlignment.start|MainAxisAlignment.end|
 |:--:|:--:|:--:|
 |![row_center.png]({{site.baseurl}}/media/row_center.png) |![row_start.png]({{site.baseurl}}/media/row_start.png)|![row_end.png]({{site.baseurl}}/media/row_end.png)|
+|MainAxisAlignment.spaceEvenly|MainAxisAlignment.spaceAround|MainAxisAlignment.spaceBetween|
+|:--:|:--:|:--:|
+|![row_equally.png]({{site.baseurl}}/media/row_equally.png) |![row_between.png]({{site.baseurl}}/media/row_between.png) |![row_around.png]({{site.baseurl}}/media/row_around.png)|
+
+
+
 
 
 ```dart
@@ -99,25 +127,6 @@ Column(
       ),
  ```     
 
-## Text
-![text.png]({{site.baseurl}}/media/text.png)
-
-```dart
-new Text(
-            "Flutter is Awesome",
-            style: new TextStyle(
-                fontSize: 18.0,
-                color: Colors.greenAccent,
-                fontWeight: FontWeight.w500,
-                fontFamily: "Roboto"),
-          ),
-```
-
-## Icon
-![icon.png]({{site.baseurl}}/media/icon.png)
-```dart
-new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
-```
 
               
 ## Utilities
