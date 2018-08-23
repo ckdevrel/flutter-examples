@@ -9,7 +9,7 @@
   - [Text](#text)
   - [Icon](#icon)
   - [Button](#button)
-    - [Raised Button](#raisedbutton)
+    - [Raised Button](#raised%20button)
 
   - [Row](#row)
   - [Column](#column)
