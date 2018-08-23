@@ -8,6 +8,9 @@
   - [Container](#container)
   - [Text](#text)
   - [Icon](#icon)
+  - [Button](#button)
+    - [Raised Button](#raised button)
+
   - [Row](#row)
   - [Column](#column)
   
@@ -45,10 +48,30 @@ new Text(
 
 ## Icon
 ![icon.png]({{site.baseurl}}/media/icon.png)
+
 ```dart
 new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
 ```
 
+## Button
+
+## Raised Button
+
+![raisedbutton.png]({{site.baseurl}}/media/raisedbutton.png)
+
+```dart
+RaisedButton(
+          onPressed: () {
+            debugPrint('I am Awesome');
+          },
+          textColor: Colors.white,
+          color: Colors.blueAccent,
+          disabledColor: Colors.blueGrey,
+          highlightColor: Colors.greenAccent,
+          elevation: 4.0,
+          child: Text('Raised Button'),
+        ),
+```    
 ## Row
 
 ### MainAxisAlignment
@@ -107,7 +130,6 @@ new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
 |.center|.start|.end|.spaceEvenly|.spaceAround|.spaceBetween|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |![col_center.png]({{site.baseurl}}/media/col_center.png) |![col_start.png]({{site.baseurl}}/media/col_start.png)|![col_end.png]({{site.baseurl}}/media/col_end.png)|![col_equally.png]({{site.baseurl}}/media/col_equally.png) |![col_around.png]({{site.baseurl}}/media/col_around.png) |![col_between.png]({{site.baseurl}}/media/col_between.png)|
-
 
 
 ```dart
