@@ -9,7 +9,7 @@
   - [Text](#text)
   - [Icon](#icon)
   - [Button](#button)
-    - [Raised Button](#raised button)
+    - [Raised Button](#raisedbutton)
 
   - [Row](#row)
   - [Column](#column)
@@ -56,6 +56,7 @@ new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
 ## Button
 
 ## Raised Button
+
 
 ![raisedbutton.png]({{site.baseurl}}/media/raisedbutton.png)
 
