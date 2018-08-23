@@ -9,8 +9,8 @@
   - [Text](#text)
   - [Icon](#icon)
   - [Button](#button)
+    - [Flat Button](#flat-button)
     - [Raised Button](#raised-button)
-
   - [Row](#row)
   - [Column](#column)
   
