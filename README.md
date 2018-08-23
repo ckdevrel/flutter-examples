@@ -11,6 +11,8 @@
   - [Button](#button)
     - [Flat Button](#flat-button)
     - [Raised Button](#raised-button)
+    - [Icon Button](#icon-button)
+
   - [Row](#row)
   - [Column](#column)
   
@@ -92,7 +94,23 @@ RaisedButton(
           elevation: 4.0,
           child: Text('Raised Button'),
         ),
-```    
+```  
+
+## Icon Button
+
+![icon_button.png]({{site.baseurl}}/media/icon_button.png)
+
+```dart
+IconButton(
+          onPressed: () {
+            debugPrint("Starred Me!");
+          },
+          color: Colors.orangeAccent,
+          icon: Icon(Icons.star),
+          disabledColor: Colors.grey,
+          highlightColor: Colors.black38,
+        ),
+```       
 ## Row
 
 ### MainAxisAlignment
