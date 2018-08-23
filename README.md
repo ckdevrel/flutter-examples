@@ -52,12 +52,12 @@ new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
 ## Row
 
 ### MainAxisAlignment
-
 |.center|.start|.end|
 |:--:|:--:|:--:|
 |![row_center.png]({{site.baseurl}}/media/row_center.png) |![row_start.png]({{site.baseurl}}/media/row_start.png)|![row_end.png]({{site.baseurl}}/media/row_end.png)|
 
-|.spaceEvenly|.spaceAround|.spaceBetween|
+
+|MainAxisAlignment.spaceEvenly|MainAxisAlignment.spaceAround|MainAxisAlignment.spaceBetween|
 |:--:|:--:|:--:|
 |![row_equally.png]({{site.baseurl}}/media/row_equally.png) |![row_between.png]({{site.baseurl}}/media/row_between.png) |![row_around.png]({{site.baseurl}}/media/row_around.png)|
 
