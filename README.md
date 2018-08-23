@@ -102,6 +102,8 @@ new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
 
 ## Column
 
+### MainAxisAlignment
+
 |.center|.start|.end|.spaceEvenly|.spaceAround|.spaceBetween|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |![col_center.png]({{site.baseurl}}/media/col_center.png) |![col_start.png]({{site.baseurl}}/media/col_start.png)|![col_end.png]({{site.baseurl}}/media/col_end.png)|![col_equally.png]({{site.baseurl}}/media/col_equally.png) |![col_around.png]({{site.baseurl}}/media/col_around.png) |![col_between.png]({{site.baseurl}}/media/col_between.png)|
