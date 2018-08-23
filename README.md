@@ -60,7 +60,7 @@ new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
 
 |.spaceEvenly|.spaceAround|.spaceBetween|
 |:--:|:--:|:--:|
-|![row_equally.png]({{site.baseurl}}/media/row_equally.png) |![row_between.png]({{site.baseurl}}/media/row_between.png) |![row_around.png]({{site.baseurl}}/media/row_around.png)|
+|![row_equally.png]({{site.baseurl}}/media/row_equally.png) |![row_around.png]({{site.baseurl}}/media/row_around.png) |![row_between.png]({{site.baseurl}}/media/row_between.png)|
 
 
 ```dart
@@ -104,7 +104,7 @@ new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
 
 |.center|.start|.end|.spaceEvenly|.spaceAround|.spaceBetween|
 |:--:|:--:|:--:|:--:|:--:|:--:|
-|![col_center.png]({{site.baseurl}}/media/col_center.png) |![col_start.png]({{site.baseurl}}/media/col_start.png)|![col_end.png]({{site.baseurl}}/media/col_end.png)|![col_equally.png]({{site.baseurl}}/media/col_equally.png) |![col_between.png]({{site.baseurl}}/media/col_between.png) |![col_around.png]({{site.baseurl}}/media/col_around.png)|
+|![col_center.png]({{site.baseurl}}/media/col_center.png) |![col_start.png]({{site.baseurl}}/media/col_start.png)|![col_end.png]({{site.baseurl}}/media/col_end.png)|![col_equally.png]({{site.baseurl}}/media/col_equally.png) |![col_around.png]({{site.baseurl}}/media/col_around.png) |![col_between.png]({{site.baseurl}}/media/col_between.png)|
 
 
 
