@@ -67,7 +67,7 @@ new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
 
 
 ```dart
- body: Container(
+   Container(
         padding: const EdgeInsets.all(20.0),
         alignment: Alignment.center,
         color: Colors.grey.shade300,
