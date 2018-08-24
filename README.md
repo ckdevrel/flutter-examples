@@ -6,7 +6,6 @@
 
 - [Widgets](#widgets)
   - [Container](#container)
-  - [GoogleAds](#googleads)
   - [Text](#text)
   - [Icon](#icon)
   - [Button](#button)
@@ -21,18 +20,6 @@
 - [Utilities](#utilities)
 
 ## Widgets
-
-## GoogleAds
-![containers.png]({{site.baseurl}}/media/containers.png)
-```dart
-GoogleAds(
-        padding: const EdgeInsets.all(0.0),
-        alignment: Alignment.center,
-        color: Colors.cyanAccent,
-        width: 80.0,
-        height: 80.0,
-      ),
-```
 
 ## Container
 ![containers.png]({{site.baseurl}}/media/containers.png)
