@@ -1,69 +1,234 @@
-# Jekyll Cayman theme
 
-This is a [Jekyll][1] theme for [@jasonlong][2]'s [Cayman theme][4] on [GitHub Pages][3].
+<a href='https://ko-fi.com/U6U0GSTS' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
-Cayman is a clean, responsive theme for [GitHub Pages](https://pages.github.com). This theme is available as an option if you use the [Automatic Page Generator](https://help.github.com/articles/creating-pages-with-the-automatic-generator/) or you can copy the template and styles to use on your own.
 
-You can preview the theme at https://jasonlong.github.io/cayman-theme or with real content at https://jasonlong.github.io/geo_pattern.
+# Getting Started
 
-![](https://cl.ly/image/1T3r3d18311V/content)
+- [Widgets](#widgets)
+  - [Container](#container)
+  - [Text](#text)
+  - [Icon](#icon)
+  - [Button](#button)
+    - [Flat Button](#flat-button)
+    - [Raised Button](#raised-button)
+    - [Icon Button](#icon-button)
 
-# How to use it?
+  - [Row](#row)
+  - [Column](#column)
+  
 
-Download the theme @ https://github.com/pietromenna/jekyll-cayman-theme/archive/master.zip
+- [Utilities](#utilities)
 
-Unzip it and use it as a regular jekyll folder.
+## Widgets
 
+## Container
+![containers.png]({{site.baseurl}}/media/containers.png)
+
+```dart
+Container(
+        padding: const EdgeInsets.all(0.0),
+        alignment: Alignment.center,
+        color: Colors.cyanAccent,
+        width: 80.0,
+        height: 80.0,
+      ),
 ```
-$ unzip jekyll-cayman-theme-master.zip
+
+## Text
+![text.png]({{site.baseurl}}/media/text.png)
+
+```dart
+new Text(
+            "Flutter is Awesome",
+            style: new TextStyle(
+                fontSize: 18.0,
+                color: Colors.greenAccent,
+                fontWeight: FontWeight.w500,
+                fontFamily: "Roboto"),
+          ),
 ```
 
-Get inside the newly extracted folder
-```
-$ cd jekyll-cayman-theme-master
-```
+## Icon
+![icon.png]({{site.baseurl}}/media/icon.png)
 
-Get the required gems
-```
-$ bundle install
+```dart
+new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
 ```
 
-Use it!
+## Button
 
+## Flat Button
+
+
+![flat_ button.png]({{site.baseurl}}/media/flat_ button.png)
+
+```dart
+FlatButton(
+          onPressed: () {
+            debugPrint('I am Awesome');
+          },
+          textColor: Colors.white,
+          color: Colors.blueAccent,
+          disabledColor: Colors.grey,
+          disabledTextColor: Colors.white,
+          highlightColor: Colors.orangeAccent,
+          child: Text('Flat Button'),
+        ),
+```    
+
+## Raised Button
+
+
+![raisedbutton.png]({{site.baseurl}}/media/raisedbutton.png)
+
+```dart
+RaisedButton(
+          onPressed: () {
+            debugPrint('I am Awesome');
+          },
+          textColor: Colors.white,
+          color: Colors.blueAccent,
+     	  disabledColor: Colors.grey,
+          disabledTextColor: Colors.white,
+          highlightColor: Colors.orangeAccent,
+          elevation: 4.0,
+          child: Text('Raised Button'),
+        ),
+```  
+
+## Icon Button
+
+![icon_button.png]({{site.baseurl}}/media/icon_button.png)
+
+```dart
+IconButton(
+          onPressed: () {
+            debugPrint("Starred Me!");
+          },
+          color: Colors.orangeAccent,
+          icon: Icon(Icons.star),
+          disabledColor: Colors.grey,
+          highlightColor: Colors.black38,
+        ),
+```       
+## Row
+
+### MainAxisAlignment
+
+|.center|.start|.end|
+|:--:|:--:|:--:|
+|![row_center.png]({{site.baseurl}}/media/row_center.png) |![row_start.png]({{site.baseurl}}/media/row_start.png)|![row_end.png]({{site.baseurl}}/media/row_end.png)|
+
+
+|.spaceEvenly|.spaceAround|.spaceBetween|
+|:--:|:--:|:--:|
+|![row_equally.png]({{site.baseurl}}/media/row_equally.png) |![row_around.png]({{site.baseurl}}/media/row_around.png) |![row_between.png]({{site.baseurl}}/media/row_between.png)|
+
+
+```dart
+   Container(
+        padding: const EdgeInsets.all(20.0),
+        alignment: Alignment.center,
+        color: Colors.grey.shade300,
+        height: 140.0,
+        child: new Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisSize: MainAxisSize.max,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: <Widget>[
+            Container(
+              padding: const EdgeInsets.all(0.0),
+              alignment: Alignment.center,
+              color: Colors.cyanAccent,
+              width: 80.0,
+              height: 80.0,
+            ),
+            Container(
+              padding: const EdgeInsets.all(0.0),
+              alignment: Alignment.center,
+              color: Colors.blueAccent,
+              width: 80.0,
+              height: 80.0,
+            ),
+            Container(
+              padding: const EdgeInsets.all(0.0),
+              alignment: Alignment.center,
+              color: Colors.orangeAccent,
+              width: 80.0,
+              height: 80.0,
+            ),
+          ],
+        ),
+      ),
+ ```     
+
+## Column
+
+### MainAxisAlignment
+
+|.center|.start|.end|.spaceEvenly|.spaceAround|.spaceBetween|
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|![col_center.png]({{site.baseurl}}/media/col_center.png) |![col_start.png]({{site.baseurl}}/media/col_start.png)|![col_end.png]({{site.baseurl}}/media/col_end.png)|![col_equally.png]({{site.baseurl}}/media/col_equally.png) |![col_around.png]({{site.baseurl}}/media/col_around.png) |![col_between.png]({{site.baseurl}}/media/col_between.png)|
+
+
+```dart
+Container(
+        alignment: Alignment.center,
+        color: Colors.grey.shade300,
+        height: 300.0,
+        width: 120.0,
+        child: new Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisSize: MainAxisSize.max,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: <Widget>[
+            Container(
+              padding: const EdgeInsets.all(0.0),
+              alignment: Alignment.center,
+              color: Colors.cyanAccent,
+              width: 80.0,
+              height: 80.0,
+            ),
+            Container(
+              padding: const EdgeInsets.all(0.0),
+              alignment: Alignment.center,
+              color: Colors.blueAccent,
+              width: 80.0,
+              height: 80.0,
+            ),
+            Container(
+              padding: const EdgeInsets.all(0.0),
+              alignment: Alignment.center,
+              color: Colors.orangeAccent,
+              width: 80.0,
+              height: 80.0,
+            ),
+          ],
+        ),
+      ),
+ ```     
+
+
+              
+## Utilities
+
+Creates Color Utils
+```dart
+class AppColors {
+  static const Color colorPrimary = Color.fromARGB(255, 51, 51, 51);
+  static const Color colorPrimaryDark = Color.fromARGB(255, 41, 41, 41);
+  static const Color colorAccent = Color.fromARGB(255, 30, 198, 89);
+  static const Color yellow = Color.fromARGB(255, 252, 163, 38);
+  static const Color orange = Color.fromARGB(255, 252, 109, 38);
+  static const Color grey_unselected = Color.fromARGB(255, 96, 96, 96);
+  static const Color white_card = Color.fromARGB(255, 250, 250, 250);
+  static const Color chrome_grey = Color.fromARGB(255, 240, 240, 240);
+  static const Color white = Color.fromARGB(255, 255, 255, 255);
+  static const Color white_secondary = Color.fromARGB(255, 220, 220, 220);
+  static const Color white_un_selected = Color.fromARGB(255, 180, 180, 180);
+  static const Color indigo = Color.fromARGB(255, 51, 105, 231);
+  static const Color primary_text = Color.fromARGB(255, 51, 51, 51);
+  static const Color secondary_text = Color.fromARGB(255, 114, 114, 114);
+  static const Color grey = Color.fromARGB(255, 188, 187, 187);
+}
 ```
-$ jekyll serve
-```
-
-For more details read about [Jekyll][1] on its web page.
-
-# Setup
-
-Some important configuration can be done in the file `_config.yml`. Please, check the Setup section in that file.
-
-
-## baseurl
-
-`baseurl` parameter is required in the case the site doesn't sit on the root of the domain. For example: https://pietromenna.github.io/jekyll-cayman-theme
-
-In the case above the baseurl should be set to "/jekyll-cayman-theme".
-
-In the case the site sits in the root, you can leave `baseurl` as empty "".
-
-# Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/pietromenna/jekyll-cayman-theme.
-
-# Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-# License
-
-This work is licensed under a [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license.
-
-[1]: https://jekyllrb.com/
-[2]: https://github.com/jasonlong
-[3]: https://pages.github.com/
-[4]: https://github.com/jasonlong/cayman-theme
