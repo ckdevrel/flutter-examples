@@ -131,7 +131,7 @@ IconButton(
 |![row_equally.png]({{site.baseurl}}/media/row_equally.png) |![row_around.png]({{site.baseurl}}/media/row_around.png) |![row_between.png]({{site.baseurl}}/media/row_between.png)|
 
 
-```dart
+```
    Container(
         padding: const EdgeInsets.all(20.0),
         alignment: Alignment.center,
