@@ -4,14 +4,20 @@
 
 # Getting Started
 
-- [Widgets](#widgets)
+- [Getting Started](#getting-started)
+  - [Widgets](#widgets)
   - [Container](#container)
   - [Text](#text)
   - [Icon](#icon)
   - [Button](#button)
-    - [Flat Button](#flat-button)
-    - [Raised Button](#raised-button)
-    - [Icon Button](#icon-button)
+  - [Flat Button](#flat-button)
+  - [Raised Button](#raised-button)
+  - [Icon Button](#icon-button)
+  - [Row](#row)
+    - [MainAxisAlignment](#mainaxisalignment)
+  - [Column](#column)
+    - [MainAxisAlignment](#mainaxisalignment)
+  - [Utilities](#utilities)
 
   - [Row](#row)
   - [Column](#column)
