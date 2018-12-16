@@ -32,12 +32,12 @@
 
 ```dart
 Container(
-              padding: const EdgeInsets.all(0.0),
-              alignment: Alignment.center,
-              color: Colors.cyanAccent,
-              width: 80.0,
-              height: 80.0,
-            )
+  padding: const EdgeInsets.all(0.0),
+  alignment: Alignment.center,
+  color: Colors.cyanAccent,
+  width: 80.0,
+  height: 80.0,
+),
 ```
 
 ## Text
@@ -45,13 +45,13 @@ Container(
 
 ```dart
 new Text(
-            "Flutter is Awesome",
-            style: new TextStyle(
-                fontSize: 18.0,
-                color: Colors.greenAccent,
-                fontWeight: FontWeight.w500,
-                fontFamily: "Roboto"),
-          ),
+  "Flutter is Awesome",
+  style: new TextStyle(
+      fontSize: 18.0,
+      color: Colors.greenAccent,
+      fontWeight: FontWeight.w500,
+      fontFamily: "Roboto"),
+),
 ```
 
 ## Icon
@@ -70,16 +70,16 @@ new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
 
 ```dart
 FlatButton(
-          onPressed: () {
-            debugPrint('I am Awesome');
-          },
-          textColor: Colors.white,
-          color: Colors.blueAccent,
-          disabledColor: Colors.grey,
-          disabledTextColor: Colors.white,
-          highlightColor: Colors.orangeAccent,
-          child: Text('Flat Button'),
-        ),
+  onPressed: () {
+    debugPrint('I am Awesome');
+  },
+  textColor: Colors.white,
+  color: Colors.blueAccent,
+  disabledColor: Colors.grey,
+  disabledTextColor: Colors.white,
+  highlightColor: Colors.orangeAccent,
+  child: Text('Flat Button'),
+),
 ```    
 
 ## Raised Button
@@ -89,17 +89,17 @@ FlatButton(
 
 ```dart
 RaisedButton(
-          onPressed: () {
-            debugPrint('I am Awesome');
-          },
-          textColor: Colors.white,
-          color: Colors.blueAccent,
-     	  disabledColor: Colors.grey,
-          disabledTextColor: Colors.white,
-          highlightColor: Colors.orangeAccent,
-          elevation: 4.0,
-          child: Text('Raised Button'),
-        ),
+  onPressed: () {
+    debugPrint('I am Awesome');
+  },
+  textColor: Colors.white,
+  color: Colors.blueAccent,
+  disabledColor: Colors.grey,
+  disabledTextColor: Colors.white,
+  highlightColor: Colors.orangeAccent,
+  elevation: 4.0,
+  child: Text('Raised Button'),
+),
 ```  
 
 ## Icon Button
@@ -108,14 +108,14 @@ RaisedButton(
 
 ```dart
 IconButton(
-          onPressed: () {
-            debugPrint("Starred Me!");
-          },
-          color: Colors.orangeAccent,
-          icon: Icon(Icons.star),
-          disabledColor: Colors.grey,
-          highlightColor: Colors.black38,
-        ),
+  onPressed: () {
+    debugPrint("Starred Me!");
+  },
+  color: Colors.orangeAccent,
+  icon: Icon(Icons.star),
+  disabledColor: Colors.grey,
+  highlightColor: Colors.black38,
+),
 ```       
 ## Row
 
@@ -132,40 +132,40 @@ IconButton(
 
 
 ```dart
-   Container(
-        padding: const EdgeInsets.all(20.0),
+Container(
+  padding: const EdgeInsets.all(20.0),
+  alignment: Alignment.center,
+  color: Colors.grey.shade300,
+  height: 140.0,
+  child: new Row(
+    mainAxisAlignment: MainAxisAlignment.center,
+    mainAxisSize: MainAxisSize.max,
+    crossAxisAlignment: CrossAxisAlignment.center,
+    children: <Widget>[
+      Container(
+        padding: const EdgeInsets.all(0.0),
         alignment: Alignment.center,
-        color: Colors.grey.shade300,
-        height: 140.0,
-        child: new Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          mainAxisSize: MainAxisSize.max,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: <Widget>[
-            Container(
-              padding: const EdgeInsets.all(0.0),
-              alignment: Alignment.center,
-              color: Colors.cyanAccent,
-              width: 80.0,
-              height: 80.0,
-            ),
-            Container(
-              padding: const EdgeInsets.all(0.0),
-              alignment: Alignment.center,
-              color: Colors.blueAccent,
-              width: 80.0,
-              height: 80.0,
-            ),
-            Container(
-              padding: const EdgeInsets.all(0.0),
-              alignment: Alignment.center,
-              color: Colors.orangeAccent,
-              width: 80.0,
-              height: 80.0,
-            ),
-          ],
-        ),
+        color: Colors.cyanAccent,
+        width: 80.0,
+        height: 80.0,
       ),
+      Container(
+        padding: const EdgeInsets.all(0.0),
+        alignment: Alignment.center,
+        color: Colors.blueAccent,
+        width: 80.0,
+        height: 80.0,
+      ),
+      Container(
+        padding: const EdgeInsets.all(0.0),
+        alignment: Alignment.center,
+        color: Colors.orangeAccent,
+        width: 80.0,
+        height: 80.0,
+      ),
+    ],
+  ),
+),
  ```     
 
 ## Column
