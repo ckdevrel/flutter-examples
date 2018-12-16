@@ -32,12 +32,12 @@
 
 ```dart
 Container(
-        padding: const EdgeInsets.all(0.0),
-        alignment: Alignment.center,
-        color: Colors.cyanAccent,
-        width: 80.0,
-        height: 80.0,
-      ),
+              padding: const EdgeInsets.all(0.0),
+              alignment: Alignment.center,
+              color: Colors.cyanAccent,
+              width: 80.0,
+              height: 80.0,
+            )
 ```
 
 ## Text
@@ -131,7 +131,7 @@ IconButton(
 |![row_equally.png]({{site.baseurl}}/media/row_equally.png) |![row_around.png]({{site.baseurl}}/media/row_around.png) |![row_between.png]({{site.baseurl}}/media/row_between.png)|
 
 
-```
+```dart
    Container(
         padding: const EdgeInsets.all(20.0),
         alignment: Alignment.center,
