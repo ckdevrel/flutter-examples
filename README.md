@@ -132,39 +132,33 @@ IconButton(
 
 
 ```dart
-Container(
-  padding: const EdgeInsets.all(20.0),
-  alignment: Alignment.center,
-  color: Colors.grey.shade300,
-  height: 140.0,
-  child: new Row(
-    mainAxisAlignment: MainAxisAlignment.center,
-    mainAxisSize: MainAxisSize.max,
-    crossAxisAlignment: CrossAxisAlignment.center,
-    children: <Widget>[
-      Container(
-        padding: const EdgeInsets.all(0.0),
-        alignment: Alignment.center,
-        color: Colors.cyanAccent,
-        width: 80.0,
-        height: 80.0,
-      ),
-      Container(
-        padding: const EdgeInsets.all(0.0),
-        alignment: Alignment.center,
-        color: Colors.blueAccent,
-        width: 80.0,
-        height: 80.0,
-      ),
-      Container(
-        padding: const EdgeInsets.all(0.0),
-        alignment: Alignment.center,
-        color: Colors.orangeAccent,
-        width: 80.0,
-        height: 80.0,
-      ),
-    ],
+Row(
+  mainAxisAlignment: MainAxisAlignment.center,
+  mainAxisSize: MainAxisSize.max,
+  crossAxisAlignment: CrossAxisAlignment.center,
+  children: <Widget>[
+  Container(
+    padding: const EdgeInsets.all(0.0),
+    alignment: Alignment.center,
+    color: Colors.cyanAccent,
+    width: 80.0,
+    height: 80.0,
   ),
+  Container(
+    padding: const EdgeInsets.all(0.0),
+    alignment: Alignment.center,
+    color: Colors.blueAccent,
+    width: 80.0,
+    height: 80.0,
+  ),
+  Container(
+    padding: const EdgeInsets.all(0.0),
+    alignment: Alignment.center,
+    color: Colors.orangeAccent,
+    width: 80.0,
+    height: 80.0,
+  ),
+  ],
 ),
  ```     
 
@@ -178,39 +172,33 @@ Container(
 
 
 ```dart
-Container(
-  alignment: Alignment.center,
-  color: Colors.grey.shade300,
-  height: 300.0,
-  width: 120.0,
-  child: new Column(
-    mainAxisAlignment: MainAxisAlignment.center,
-    mainAxisSize: MainAxisSize.max,
-    crossAxisAlignment: CrossAxisAlignment.center,
-    children: <Widget>[
-      Container(
-        padding: const EdgeInsets.all(0.0),
-        alignment: Alignment.center,
-        color: Colors.cyanAccent,
-        width: 80.0,
-        height: 80.0,
-      ),
-      Container(
-        padding: const EdgeInsets.all(0.0),
-        alignment: Alignment.center,
-        color: Colors.blueAccent,
-        width: 80.0,
-        height: 80.0,
-      ),
-      Container(
-        padding: const EdgeInsets.all(0.0),
-        alignment: Alignment.center,
-        color: Colors.orangeAccent,
-        width: 80.0,
-        height: 80.0,
-      ),
-    ],
-  ),
+Column(
+  mainAxisAlignment: MainAxisAlignment.center,
+  mainAxisSize: MainAxisSize.max,
+  crossAxisAlignment: CrossAxisAlignment.center,
+  children: <Widget>[
+    Container(
+      padding: const EdgeInsets.all(0.0),
+      alignment: Alignment.center,
+      color: Colors.cyanAccent,
+      width: 80.0,
+      height: 80.0,
+    ),
+    Container(
+      padding: const EdgeInsets.all(0.0),
+      alignment: Alignment.center,
+      color: Colors.blueAccent,
+      width: 80.0,
+      height: 80.0,
+    ),
+    Container(
+      padding: const EdgeInsets.all(0.0),
+      alignment: Alignment.center,
+      color: Colors.orangeAccent,
+      width: 80.0,
+      height: 80.0,
+    ),
+  ],
 ),
  ```     
 
