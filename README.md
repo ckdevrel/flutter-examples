@@ -206,12 +206,13 @@ Column(
 
 ### Under line style
 
-|Normal|Focused|
+|||
 |:--:|:--:|
 |![UnderLineTextFieldDefault.png]({{site.baseurl}}/UnderLineTextFieldDefault.png) |![UnderLineTextFieldSelected.png]({{site.baseurl}}/UnderLineTextFieldSelected.png)|
 
 ```dart
-InputDecoration(
+TextField(
+  decoration: InputDecoration(
   hintText: "Enter your name!",
   hintStyle: TextStyle(fontWeight: FontWeight.w300, color: Colors.blue),
   enabledBorder: new UnderlineInputBorder(
@@ -219,7 +220,8 @@ InputDecoration(
   focusedBorder: UnderlineInputBorder(
     borderSide: BorderSide(color: Colors.orange),
   ),
-),
+  ),
+)
 ```     
              
 ## Utilities
