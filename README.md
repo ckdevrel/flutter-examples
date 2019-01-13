@@ -206,7 +206,6 @@ Column(
 
 ### Under line style
 
-|||
 |:--:|:--:|
 |![UnderLineTextFieldDefault.png]({{site.baseurl}}/UnderLineTextFieldDefault.png) |![UnderLineTextFieldSelected.png]({{site.baseurl}}/UnderLineTextFieldSelected.png)|
 
