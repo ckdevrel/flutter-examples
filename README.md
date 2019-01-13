@@ -206,8 +206,8 @@ Column(
 
 ### Under line style
 
-|:--:|:--:|
-|![UnderLineTextFieldDefault.png]({{site.baseurl}}/UnderLineTextFieldDefault.png) |![UnderLineTextFieldSelected.png]({{site.baseurl}}/UnderLineTextFieldSelected.png)|
+![UnderLineTextField.png]({{site.baseurl}}/UnderLineTextField.png)
+
 
 ```dart
 TextField(
