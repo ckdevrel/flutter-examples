@@ -204,7 +204,7 @@ Column(
 
 ## TextField (Text box or Edit Text)
 
-### Under line style
+### Under line style (Simple)
 
 ![UnderLineTextField.png]({{site.baseurl}}/UnderLineTextField.png)
 
