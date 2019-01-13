@@ -206,9 +206,9 @@ Column(
 
 ### Under line style
 
-|Normal|Focused|.end|
-|:--:|:--:|:--:|
-|![UnderLineTextFieldDefault.png]({{site.baseurl}}/UnderLineTextFieldDefault.png) |![UnderLineTextFieldSelected.png]({{site.baseurl}}/UnderLineTextFieldSelected.png)|![row_end.png]({{site.baseurl}}/media/row_end.png)|
+|Normal|Focused|
+|:--:|:--:|
+|![UnderLineTextFieldDefault.png]({{site.baseurl}}/UnderLineTextFieldDefault.png) |![UnderLineTextFieldSelected.png]({{site.baseurl}}/UnderLineTextFieldSelected.png)|
 
 ```dart
 InputDecoration(
