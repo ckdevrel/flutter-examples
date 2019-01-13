@@ -204,10 +204,12 @@ Column(
 
 ## TextField (Text box or Edit Text)
 
-### Under line style
+
+|Under line style|
+|--|
+|![UnderLineTextField.png]({{site.baseurl}}/UnderLineTextField.png)|
 
 
-![UnderLineTextField.png]({{site.baseurl}}/UnderLineTextField.png)
 
 
 ```dart
