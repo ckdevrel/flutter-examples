@@ -208,7 +208,6 @@ Column(
 
 
 | ![UnderLineTextField.png]({{site.baseurl}}/UnderLineTextField.png) |
-|--|
 
 
 ```dart
