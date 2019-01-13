@@ -202,8 +202,26 @@ Column(
 ),
  ```     
 
+## TextField (Text box or Edit Text)
 
-              
+### Under line style
+
+|Normal|Focused|.end|
+|:--:|:--:|:--:|
+|![UnderLineTextFieldDefault.png]({{site.baseurl}}/UnderLineTextFieldDefault.png) |![UnderLineTextFieldSelected.png]({{site.baseurl}}/UnderLineTextFieldSelected.png)|![row_end.png]({{site.baseurl}}/media/row_end.png)|
+
+```dart
+InputDecoration(
+  hintText: "Enter your name!",
+  hintStyle: TextStyle(fontWeight: FontWeight.w300, color: Colors.blue),
+  enabledBorder: new UnderlineInputBorder(
+      borderSide: new BorderSide(color: Colors.blue)),
+  focusedBorder: UnderlineInputBorder(
+    borderSide: BorderSide(color: Colors.orange),
+  ),
+),
+```     
+             
 ## Utilities
 
 Creates Color Utils
