@@ -239,9 +239,18 @@ InputDecoration(
 
 ```dart
 InputDecoration(
-  prefixIcon: Icon(Icons.account_circle, color: Colors.blue),
+  prefixIcon: Icon(Icons.account_circle, color: Colors.blue))
 ```
 
+### Under line Suffix Icon style
+
+![UnderLineTextFieldSuffixIcon.png]({{site.baseurl}}/UnderLineTextFieldSuffixIcon.png)
+
+
+```dart
+InputDecoration(
+  suffixIcon: Icon(Icons.account_circle, color: Colors.blue))
+```
              
 ## Utilities
 
