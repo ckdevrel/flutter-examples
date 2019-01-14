@@ -18,11 +18,11 @@
   - [Column](#column)
     - [MainAxisAlignment](#mainaxisalignment)
   - [TextField](#TextField)
-    - [Under line style ](#under-line-style )  
-    	- [Simple ](#simple)  
-    	- [Under line Icon style ](#under-line-icon-style )  
-    	- [Under line Prefix Icon style ](#under-line-prefix-icon-style )  
-    	- [Under line Suffix Icon style ](#under-line-suffix-icon-style )  
+    - [Under Line Style ](#under-line-style )  
+    	- [Simple](#simple)  
+    	- [Icon](#icon)  
+    	- [Prefix Icon](#prefix-icon)  
+    	- [Suffix Icon](#suffix-icon)  
 
   - [Utilities](#utilities)
 
@@ -232,7 +232,7 @@ TextField(
 )
 ```     
 
-### Under line Icon style
+### Icon
 
 ![UnderLineTextFieldIcon.png]({{site.baseurl}}/UnderLineTextFieldIcon.png)
 
@@ -242,7 +242,7 @@ InputDecoration(
   icon: Icon(Icons.account_circle, color: Colors.blue))
 ```
 
-### Under line Prefix Icon style
+### Prefix Icon
 
 ![UnderLineTextFieldPrefixIcon.png]({{site.baseurl}}/UnderLineTextFieldPrefixIcon.png)
 
@@ -251,7 +251,7 @@ InputDecoration(
   prefixIcon: Icon(Icons.account_circle, color: Colors.blue))
 ```
 
-### Under line Suffix Icon style
+### Suffix Icon
 
 ![UnderLineTextFieldSuffixIcon.png]({{site.baseurl}}/UnderLineTextFieldSuffixIcon.png)
 
