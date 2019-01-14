@@ -10,9 +10,9 @@
   - [Text](#text)
   - [Icon](#icon)
   - [Button](#button)
-  - [Flat Button](#flat-button)
-  - [Raised Button](#raised-button)
-  - [Icon Button](#icon-button)
+  	- [Flat Button](#flat-button)
+  	- [Raised Button](#raised-button)
+  	- [Icon Button](#icon-button)
   - [Row](#row)
     - [MainAxisAlignment](#mainaxisalignment)
   - [Column](#column)
@@ -69,7 +69,7 @@ new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
 
 ## Button
 
-## Flat Button
+### Flat Button
 
 
 ![flat_ button.png]({{site.baseurl}}/media/flat_ button.png)
@@ -88,7 +88,7 @@ FlatButton(
 ),
 ```    
 
-## Raised Button
+### Raised Button
 
 
 ![raisedbutton.png]({{site.baseurl}}/media/raisedbutton.png)
@@ -108,7 +108,7 @@ RaisedButton(
 ),
 ```  
 
-## Icon Button
+### Icon Button
 
 ![icon_button.png]({{site.baseurl}}/media/icon_button.png)
 
