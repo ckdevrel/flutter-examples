@@ -21,7 +21,7 @@
     - [Under line style ](#under-line-style )  
     - [Under line Icon style ](#under-line-icon-style )  
     - [Under line Prefix Icon style ](#under-line-prefix-icon-style )  
-    - [Under line Suffix Icon style ](#under-line-suffix-icon--style )  
+    - [Under line Suffix Icon style ](#under-line-suffix-icon-style )  
 
   - [Utilities](#utilities)
 
