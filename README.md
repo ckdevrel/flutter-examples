@@ -23,6 +23,7 @@
     	- [Icon](#icon)  
     	- [Prefix Icon](#prefix-icon)  
     	- [Suffix Icon](#suffix-icon)  
+    - [Outer Line Style ](#outer-line-style )  
 
   - [Utilities](#utilities)
 
@@ -260,7 +261,24 @@ InputDecoration(
 InputDecoration(
   suffixIcon: Icon(Icons.account_circle, color: Colors.blue))
 ```
-             
+
+### Outer Line Style 
+
+![OutlineTextField.png]({{site.baseurl}}/OutlineTextField.png)
+
+```dart
+TextField(
+  decoration: InputDecoration(
+  hintText: "Enter your name!",
+  hintStyle: TextStyle(fontWeight: FontWeight.w300, color: Colors.blue),
+  enabledBorder: new OutlineInputBorder(
+      borderSide: new BorderSide(color: Colors.blue)),
+  focusedBorder: OutlineInputBorder(
+    borderSide: BorderSide(color: Colors.orange),
+  ),
+  ),
+)
+```
 ## Utilities
 
 Creates Color Utils
