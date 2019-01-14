@@ -222,6 +222,22 @@ TextField(
   ),
 )
 ```     
+
+![UnderLineTextFieldIcon.png]({{site.baseurl}}/UnderLineTextFieldIcon.png)
+
+
+```dart
+InputDecoration(
+  icon: Icon(Icons.account_circle, color: Colors.blue))
+```
+
+![UnderLineTextFieldPrefixIcon.png]({{site.baseurl}}/UnderLineTextFieldPrefixIcon.png)
+
+```dart
+InputDecoration(
+  prefixIcon: Icon(Icons.account_circle, color: Colors.blue),
+```
+
              
 ## Utilities
 
