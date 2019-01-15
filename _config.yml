@@ -1,4 +1,5 @@
 theme: jekyll-theme-cayman
+future: true
 prose:
   rooturl: '_posts'
   siteurl: 'http://prose.github.io/starter/'
