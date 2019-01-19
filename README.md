@@ -283,7 +283,6 @@ TextField(
 > **Note:** Icon, Prefix Icon and Suffix Icon are similar to Underline TextField
 
 
-NOte
 ## Utilities
 
 Creates Color Utils
