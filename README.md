@@ -13,6 +13,7 @@
   	- [Flat Button](#flat-button)
   	- [Raised Button](#raised-button)
   	- [Icon Button](#icon-button)
+    - [Floating Action Button](#floating-action-button)
   - [Row](#row)
     - [MainAxisAlignment](#mainaxisalignment)
     - [CrossAxisAlignment](#crossaxisalignment)
