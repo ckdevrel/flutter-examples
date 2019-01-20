@@ -131,7 +131,7 @@ IconButton(
 
 |.center|.start|.end|
 |:--:|:--:|:--:|
-|<a href="https://imgur.com/XR3dmJc"><img src="https://imgur.com/XR3dmJc.png" title="source: imgur.com" height="403" width="200"/></a> |![row_start.png]({{site.baseurl}}/media/row_start.png)|![row_end.png]({{site.baseurl}}/media/row_end.png)|
+|<a href="https://imgur.com/XR3dmJc"><img src="https://imgur.com/XR3dmJc.png" title="source: imgur.com"></a> |![row_start.png]({{site.baseurl}}/media/row_start.png)|![row_end.png]({{site.baseurl}}/media/row_end.png)|
 
 
 |.spaceEvenly|.spaceAround|.spaceBetween|
