@@ -26,12 +26,7 @@
     - [Outer Line Style ](#outer-line-style )  
 
   - [Utilities](#utilities)
-
-  - [Row](#row)
-  - [Column](#column)
   
-
-- [Utilities](#utilities)
 
 ## Widgets
 
