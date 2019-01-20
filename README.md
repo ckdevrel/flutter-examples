@@ -144,9 +144,9 @@ IconButton(
 
 ### CrossAxisAlignment
 
-|.center|.start|.end|
-|:--:|:--:|:--:|
-|<a href="https://imgur.com/XR3dmJc"><img src="https://imgur.com/XR3dmJc.png" title="source: imgur.com"></a> |<a href="https://imgur.com/BP6U9HI"><img src="https://imgur.com/BP6U9HI.png" title="source: imgur.com"></a>|<a href="https://imgur.com/CR2ZDSo"><img src="https://imgur.com/CR2ZDSo.png" title="source: imgur.com"></a>|
+|.center|.start|.end|.stretch|
+|:--:|:--:|:--:|:--:|
+|<a href="https://imgur.com/XR3dmJc"><img src="https://imgur.com/XR3dmJc.png" title="source: imgur.com"></a> |<a href="https://imgur.com/BP6U9HI"><img src="https://imgur.com/BP6U9HI.png" title="source: imgur.com"></a>|<a href="https://imgur.com/CR2ZDSo"><img src="https://imgur.com/CR2ZDSo.png" title="source: imgur.com"></a>|<a href="https://imgur.com/hS1Pu4G"><img src="https://imgur.com/hS1Pu4G.png" title="source: imgur.com"></a>|
 
 ```dart
 Row(
@@ -188,6 +188,12 @@ Row(
 |.center|.start|.end|.spaceEvenly|.spaceAround|.spaceBetween|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |<a href="https://imgur.com/AT1WBOy"><img src="https://imgur.com/AT1WBOy.png" title="source: imgur.com"></a> |<a href="https://imgur.com/Df3PZ0E"><img src="https://imgur.com/Df3PZ0E.png" title="source: imgur.com"></a>|<a href="https://imgur.com/05M0SFS"><img src="https://imgur.com/05M0SFS.png" title="source: imgur.com"></a>|<a href="https://imgur.com/5FxzrUt"><img src="https://imgur.com/5FxzrUt.png" title="source: imgur.com"></a> |<a href="https://imgur.com/wB5u6vW"><img src="https://imgur.com/wB5u6vW.png" title="source: imgur.com"></a>|<a href="https://imgur.com/XB6aNuj"><img src="https://imgur.com/XB6aNuj.png" title="source: imgur.com"></a>|
+
+### CrossAxisAlignment
+
+|.center|.start|.end|
+|:--:|:--:|:--:|
+|<a href="https://imgur.com/AT1WBOy"><img src="https://imgur.com/AT1WBOy.png" title="source: imgur.com"></a> |<a href="https://imgur.com/BP6U9HI"><img src="https://imgur.com/BP6U9HI.png" title="source: imgur.com"></a>|<a href="https://imgur.com/CR2ZDSo"><img src="https://imgur.com/CR2ZDSo.png" title="source: imgur.com"></a>|
 
 
 ```dart
