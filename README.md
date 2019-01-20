@@ -231,9 +231,9 @@ Column(
 (Text box or Edit Text)
 
 ### Under Line Style 
-**Simple**
-
-<a href="https://imgur.com/UumXHqu"><img src="https://imgur.com/UumXHqu.png" title="source: imgur.com"></a>
+|Simple|Icon|Prefix|Suffix|
+|:--:|:--:|:--:|:--:|
+|<a href="https://imgur.com/UumXHqu"><img src="https://imgur.com/UumXHqu.png" title="source: imgur.com"></a> |<a href="https://imgur.com/NZAz3op"><img src="https://imgur.com/NZAz3op.png" title="source: imgur.com"></a>|<a href="https://imgur.com/wyz5J33"><img src="https://imgur.com/wyz5J33.png" title="source: imgur.com"></a>|<a href="https://imgur.com/yBSuZ5S"><img src="https://imgur.com/yBSuZ5S.png" title="source: imgur.com"></a>
 
 ```dart
 TextField(
@@ -249,9 +249,7 @@ TextField(
 )
 ```     
 
-**Icon**
 
-<a href="https://imgur.com/NZAz3op"><img src="https://imgur.com/NZAz3op.png" title="source: imgur.com"></a>
 
 ```dart
 InputDecoration(
@@ -260,16 +258,12 @@ InputDecoration(
 
 **Prefix Icon**
 
-<a href="https://imgur.com/wyz5J33"><img src="https://imgur.com/wyz5J33.png" title="source: imgur.com"></a>
-
 ```dar
 InputDecoration(
   prefixIcon: Icon(Icons.account_circle, color: Colors.blue))
 ```
 
 **Suffix Icon**
-
-<a href="https://imgur.com/yBSuZ5S"><img src="https://imgur.com/yBSuZ5S.png" title="source: imgur.com"></a>
 
 
 ```dart
