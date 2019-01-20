@@ -121,7 +121,26 @@ IconButton(
   disabledColor: Colors.grey,
   highlightColor: Colors.black38,
 ),
-```       
+```   
+
+### Floating Action Button
+
+|     Normal     |            Mini             |
+|----------------|-------------------------------|
+|<a href="https://imgur.com/0cP3HMc"><img src="https://i.imgur.com/0cP3HMc.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/R3YXDQq"><img src="https://i.imgur.com/R3YXDQq.png" title="source: imgur.com" /></a>|
+||`mini: true`|
+
+```dart
+return Scaffold(
+  floatingActionButton: new FloatingActionButton(
+    mini: true,
+    child: new Icon(Icons.add),
+    onPressed: () {},
+  ),
+);
+```
+
+
 ## Row
 
 ### MainAxisAlignment
