@@ -235,8 +235,9 @@ Column(
 |     Simple     |            Icon               |            Prefix           |            Suffix           |
 |----------------|-------------------------------|-----------------------------|-----------------------------|
 |<a href="https://imgur.com/UumXHqu"><img src="https://imgur.com/UumXHqu.png" title="source: imgur.com"></a>|<a href="https://imgur.com/NZAz3op"><img src="https://imgur.com/NZAz3op.png" title="source: imgur.com"></a>            |<a href="https://imgur.com/wyz5J33"><img src="https://imgur.com/wyz5J33.png" title="source: imgur.com"></a>           |<a href="https://imgur.com/yBSuZ5S"><img src="https://imgur.com/yBSuZ5S.png" title="source: imgur.com"></a>|
-|```dart InputDecoration(icon: Icon(Icons.account_circle, color: Colors.blue))``` |`"Isn't this fun?"`  |"Isn't this fun?"|`dart InputDecoration(icon: Icon(Icons.account_circle, color: Colors.blue))`        |
 
+| |```dart InputDecoration(icon: Icon(Icons.account_circle, color: Colors.blue))```  |```dart InputDecoration(prefixIcon: Icon(Icons.account_circle, color: Colors.blue))```|```dart
+InputDecoration(suffixIcon: Icon(Icons.account_circle, color: Colors.blue))```|
 
 ```dart
 TextField(
@@ -251,22 +252,6 @@ TextField(
   ),
 )
 ```     
-
-
-**Prefix Icon**
-
-```dar
-InputDecoration(
-  prefixIcon: Icon(Icons.account_circle, color: Colors.blue))
-```
-
-**Suffix Icon**
-
-
-```dart
-InputDecoration(
-  suffixIcon: Icon(Icons.account_circle, color: Colors.blue))
-```
 
 ### Outer Line Style 
 
