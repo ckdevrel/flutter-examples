@@ -239,8 +239,8 @@ Column(
 
 
 |            Prefix           |            Suffix           |
-|----------------|-------------------------------|-----------------------------|-----------------------------|
-|<a href="https://imgur.com/wyz5J33"><img src="https://imgur.com/wyz5J33.png" title="source: imgur.com"></a>           |<a href="https://imgur.com/yBSuZ5S"><img src="https://imgur.com/yBSuZ5S.png" title="source: imgur.com"></a>|
+|----------------|-------------------------------|
+|<a href="https://imgur.com/wyz5J33"><img src="https://imgur.com/wyz5J33.png" title="source: imgur.com"></a>|<a href="https://imgur.com/yBSuZ5S"><img src="https://imgur.com/yBSuZ5S.png" title="source: imgur.com"></a>|
 |`InputDecoration(prefixIcon: Icon(Icons.account_circle, color: Colors.blue))`|`InputDecoration(suffixIcon: Icon(Icons.account_circle, color: Colors.blue))`|
 
 ```dart
