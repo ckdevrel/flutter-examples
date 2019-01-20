@@ -125,7 +125,7 @@ IconButton(
 ),
 ```   
 
-### Floating Action Button
+### Floating Action Button (FAB)
 
 | Normal | Mini |
 |--------|------|
@@ -141,7 +141,6 @@ return Scaffold(
   ),
 );
 ```
-
 
 ## Row
 
