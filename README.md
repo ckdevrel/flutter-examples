@@ -235,7 +235,7 @@ Column(
 |     Simple     |            Icon               |            Prefix           |            Suffix           |
 |----------------|-------------------------------|-----------------------------|-----------------------------|
 |<a href="https://imgur.com/UumXHqu"><img src="https://imgur.com/UumXHqu.png" title="source: imgur.com"></a>|<a href="https://imgur.com/NZAz3op"><img src="https://imgur.com/NZAz3op.png" title="source: imgur.com"></a>            |<a href="https://imgur.com/wyz5J33"><img src="https://imgur.com/wyz5J33.png" title="source: imgur.com"></a>           |<a href="https://imgur.com/yBSuZ5S"><img src="https://imgur.com/yBSuZ5S.png" title="source: imgur.com"></a>|
-|```dartdart InputDecoration(icon: Icon(Icons.account_circle, color: Colors.blue))``` |`"Isn't this fun?"`  |"Isn't this fun?"|`dart InputDecoration(icon: Icon(Icons.account_circle, color: Colors.blue))`        |
+|```dart InputDecoration(icon: Icon(Icons.account_circle, color: Colors.blue))``` |`"Isn't this fun?"`  |"Isn't this fun?"|`dart InputDecoration(icon: Icon(Icons.account_circle, color: Colors.blue))`        |
 
 
 ```dart
