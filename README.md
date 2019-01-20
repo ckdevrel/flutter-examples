@@ -131,7 +131,7 @@ IconButton(
 
 |.center|.start|.end|
 |:--:|:--:|:--:|
-|![row_center.png]({{site.baseurl}}/media/row_center.png) |![row_start.png]({{site.baseurl}}/media/row_start.png)|![row_end.png]({{site.baseurl}}/media/row_end.png)|
+|[Imgur](https://i.imgur.com/XR3dmJc.png) |![row_start.png]({{site.baseurl}}/media/row_start.png)|![row_end.png]({{site.baseurl}}/media/row_end.png)|
 
 
 |.spaceEvenly|.spaceAround|.spaceBetween|
