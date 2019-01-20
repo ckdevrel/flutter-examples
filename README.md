@@ -191,9 +191,9 @@ Row(
 
 ### CrossAxisAlignment
 
-|.center|.start|.end|
-|:--:|:--:|:--:|
-|<a href="https://imgur.com/AT1WBOy"><img src="https://imgur.com/AT1WBOy.png" title="source: imgur.com"></a> |<a href="https://imgur.com/BP6U9HI"><img src="https://imgur.com/BP6U9HI.png" title="source: imgur.com"></a>|<a href="https://imgur.com/CR2ZDSo"><img src="https://imgur.com/CR2ZDSo.png" title="source: imgur.com"></a>|
+|.center|.start|.end|.stretch|
+|:--:|:--:|:--:|:--:|
+|<a href="https://imgur.com/AT1WBOy"><img src="https://imgur.com/AT1WBOy.png" title="source: imgur.com"></a> |<a href="https://imgur.com/HQt271d"><img src="https://i.imgur.com/HQt271d.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/MQP5TwQ"><img src="https://i.imgur.com/MQP5TwQ.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/9Fg9018"><img src="https://i.imgur.com/9Fg9018.png" title="source: imgur.com" /></a>|
 
 
 ```dart
