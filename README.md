@@ -15,8 +15,10 @@
   	- [Icon Button](#icon-button)
   - [Row](#row)
     - [MainAxisAlignment](#mainaxisalignment)
+    - [CrossAxisAlignment](#crossaxisalignment)
   - [Column](#column)
     - [MainAxisAlignment](#mainaxisalignment)
+    - [CrossAxisAlignment](#crossaxisalignment)
   - [TextField](#TextField)
     - [Under Line Style ](#under-line-style )  
     	- [Simple](#simple)  
@@ -140,6 +142,11 @@ IconButton(
 |:--:|:--:|:--:|
 |<a href="https://imgur.com/iX1G0F6"><img src="https://imgur.com/iX1G0F6.png" title="source: imgur.com"></a> |<a href="https://imgur.com/FJJdzF8"><img src="https://imgur.com/FJJdzF8.png" title="source: imgur.com"></a>|<a href="https://imgur.com/LzPcqi1"><img src="https://imgur.com/LzPcqi1.png" title="source: imgur.com"></a>|
 
+### CrossAxisAlignment
+
+|.center|.start|.end|
+|:--:|:--:|:--:|
+|<a href="https://imgur.com/XR3dmJc"><img src="https://imgur.com/XR3dmJc.png" title="source: imgur.com"></a> |<a href="https://imgur.com/BP6U9HI"><img src="https://imgur.com/BP6U9HI.png" title="source: imgur.com"></a>|<a href="https://imgur.com/CR2ZDSo"><img src="https://imgur.com/CR2ZDSo.png" title="source: imgur.com"></a>|
 
 ```dart
 Row(
