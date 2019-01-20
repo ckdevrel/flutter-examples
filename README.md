@@ -20,11 +20,7 @@
     - [MainAxisAlignment](#mainaxisalignment)
     - [CrossAxisAlignment](#crossaxisalignment)
   - [TextField](#TextField)
-    - [Under Line Style ](#under-line-style )  
-    	- [Simple](#simple)  
-    	- [Icon](#icon)  
-    	- [Prefix Icon](#prefix-icon)  
-    	- [Suffix Icon](#suffix-icon)  
+    - [Under Line Style ](#under-line-style )   
     - [Outer Line Style ](#outer-line-style )  
 
   - [Utilities](#utilities)
