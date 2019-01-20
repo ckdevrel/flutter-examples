@@ -131,7 +131,7 @@ IconButton(
 
 |.center|.start|.end|
 |:--:|:--:|:--:|
-|[Imgur](https://i.imgur.com/XR3dmJc.png) |![row_start.png]({{site.baseurl}}/media/row_start.png)|![row_end.png]({{site.baseurl}}/media/row_end.png)|
+|<blockquote class="imgur-embed-pub" lang="en" data-id="XR3dmJc"><a href="//imgur.com/XR3dmJc">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script> |![row_start.png]({{site.baseurl}}/media/row_start.png)|![row_end.png]({{site.baseurl}}/media/row_end.png)|
 
 
 |.spaceEvenly|.spaceAround|.spaceBetween|
