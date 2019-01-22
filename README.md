@@ -122,7 +122,7 @@ IconButton(
 
 ### Floating Action Button
 ### (FAB)
-| Norma | Mini |
+| Normal | Mini |
 |--------|------|
 |<a href="https://imgur.com/0cP3HMc"><img src="https://i.imgur.com/0cP3HMc.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/R3YXDQq"><img src="https://i.imgur.com/R3YXDQq.png" title="source: imgur.com" /></a>|
 |        |`mini: true`|
