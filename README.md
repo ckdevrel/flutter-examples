@@ -2,11 +2,16 @@
 <a href='https://ko-fi.com/U6U0GSTS' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 
-# Getting Started
 
-- [Getting Started](#getting-started)
-  - [Widgets](#widgets)
+- [Layouts](#layouts)
   - [Container](#container)
+  - [Row](#row)
+    - [MainAxisAlignment](#mainaxisalignment)
+    - [CrossAxisAlignment](#crossaxisalignment)
+  - [Column](#column)
+    - [MainAxisAlignment](#mainaxisalignment)
+    - [CrossAxisAlignment](#crossaxisalignment)
+- [Material](#material)    
   - [Text](#text)
   - [Icon](#icon)
   - [Button](#button)
@@ -14,21 +19,14 @@
     - [Raised Button](#raised-button)
     - [Icon Button](#icon-button)
     - [Floating Action Button](#floating-action-button)
-
-  - [Row](#row)
-    - [MainAxisAlignment](#mainaxisalignment)
-    - [CrossAxisAlignment](#crossaxisalignment)
-  - [Column](#column)
-    - [MainAxisAlignment](#mainaxisalignment)
-    - [CrossAxisAlignment](#crossaxisalignment)
   - [TextField](#TextField)
     - [Under Line Style ](#under-line-style )   
     - [Outer Line Style ](#outer-line-style )  
 
-  - [Utilities](#utilities)
+ - [Utilities](#utilities)
   
+# Getting Started
 
-## Widgets
 
 ## Container
 <a href="https://imgur.com/pGA1yrB"><img src="https://imgur.com/pGA1yrB.png" title="source: imgur.com"></a>
