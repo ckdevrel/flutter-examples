@@ -11,6 +11,7 @@
   - [Column](#column)
     - [MainAxisAlignment](#mainaxisalignment)
     - [CrossAxisAlignment](#crossaxisalignment)
+  - [Center](#center) 
 - [Material](#material)    
   - [Text](#text)
   - [Icon](#icon)
@@ -25,8 +26,8 @@
 
  - [Utilities](#utilities)
   
-# Getting Started
 
+# Layouts
 
 ## Container
 <a href="https://imgur.com/pGA1yrB"><img src="https://imgur.com/pGA1yrB.png" title="source: imgur.com"></a>
@@ -39,102 +40,6 @@ Container(
   width: 80.0,
   height: 80.0,
 ),
-```
-
-## Text
-<a href="https://imgur.com/yZPgBPy"><img src="https://imgur.com/yZPgBPy.png" title="source: imgur.com"></a>
-
-```dart
-new Text(
-  "Flutter is Awesome",
-  style: new TextStyle(
-      fontSize: 18.0,
-      color: Colors.greenAccent,
-      fontWeight: FontWeight.w500,
-      fontFamily: "Roboto"),
-),
-```
-
-## Icon
-<a href="https://imgur.com/QGPuoR5"><img src="https://imgur.com/QGPuoR5.png" title="source: imgur.com"></a>
-
-```dart
-new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
-```
-
-## Button
-
-### Flat Button
-
-<a href="https://imgur.com/21VBE83"><img src="https://imgur.com/21VBE83.png" title="source: imgur.com"></a>
-
-```dart
-FlatButton(
-  onPressed: () {
-    debugPrint('I am Awesome');
-  },
-  textColor: Colors.white,
-  color: Colors.blueAccent,
-  disabledColor: Colors.grey,
-  disabledTextColor: Colors.white,
-  highlightColor: Colors.orangeAccent,
-  child: Text('Flat Button'),
-),
-```    
-
-### Raised Button
-
-
-<a href="https://imgur.com/AtcNtCK"><img src="https://imgur.com/AtcNtCK.png" title="source: imgur.com"></a>
-
-```dart
-RaisedButton(
-  onPressed: () {
-    debugPrint('I am Awesome');
-  },
-  textColor: Colors.white,
-  color: Colors.blueAccent,
-  disabledColor: Colors.grey,
-  disabledTextColor: Colors.white,
-  highlightColor: Colors.orangeAccent,
-  elevation: 4.0,
-  child: Text('Raised Button'),
-),
-```  
-
-### Icon Button
-
-<a href="https://imgur.com/Sj0JzHc"><img src="https://imgur.com/Sj0JzHc.png" title="source: imgur.com"></a>
-
-```dart
-IconButton(
-  onPressed: () {
-    debugPrint("Starred Me!");
-  },
-  color: Colors.orangeAccent,
-  icon: Icon(Icons.star),
-  disabledColor: Colors.grey,
-  highlightColor: Colors.black38,
-),
-```   
-
-### Floating Action Button
-### (FAB)
-
-|     Normal     |            Mini             |
-|----------------|------------------------------|
-|<a href="https://imgur.com/0cP3HMc"><img src="https://i.imgur.com/0cP3HMc.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/R3YXDQq"><img src="https://i.imgur.com/R3YXDQq.png" title="source: imgur.com" /></a>|
-|   --------     |`mini: true`|
- 
-
-```dart
-return Scaffold(
-  floatingActionButton: new FloatingActionButton(
-    mini: true,
-    child: new Icon(Icons.add),
-    onPressed: () {},
-  ),
-);
 ```
 
 ## Row
@@ -236,6 +141,111 @@ Column(
   ],
 ),
  ```     
+
+Center(child: Container(
+  padding: const EdgeInsets.all(0.0),
+  alignment: Alignment.center,
+  color: Colors.cyanAccent,
+  width: 80.0,
+  height: 80.0,
+))
+
+# Material
+## Text
+<a href="https://imgur.com/yZPgBPy"><img src="https://imgur.com/yZPgBPy.png" title="source: imgur.com"></a>
+
+```dart
+new Text(
+  "Flutter is Awesome",
+  style: new TextStyle(
+      fontSize: 18.0,
+      color: Colors.greenAccent,
+      fontWeight: FontWeight.w500,
+      fontFamily: "Roboto"),
+),
+```
+
+## Icon
+<a href="https://imgur.com/QGPuoR5"><img src="https://imgur.com/QGPuoR5.png" title="source: imgur.com"></a>
+
+```dart
+new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
+```
+
+## Button
+
+### Flat Button
+
+<a href="https://imgur.com/21VBE83"><img src="https://imgur.com/21VBE83.png" title="source: imgur.com"></a>
+
+```dart
+FlatButton(
+  onPressed: () {
+    debugPrint('I am Awesome');
+  },
+  textColor: Colors.white,
+  color: Colors.blueAccent,
+  disabledColor: Colors.grey,
+  disabledTextColor: Colors.white,
+  highlightColor: Colors.orangeAccent,
+  child: Text('Flat Button'),
+),
+```    
+
+### Raised Button
+
+
+<a href="https://imgur.com/AtcNtCK"><img src="https://imgur.com/AtcNtCK.png" title="source: imgur.com"></a>
+
+```dart
+RaisedButton(
+  onPressed: () {
+    debugPrint('I am Awesome');
+  },
+  textColor: Colors.white,
+  color: Colors.blueAccent,
+  disabledColor: Colors.grey,
+  disabledTextColor: Colors.white,
+  highlightColor: Colors.orangeAccent,
+  elevation: 4.0,
+  child: Text('Raised Button'),
+),
+```  
+
+### Icon Button
+
+<a href="https://imgur.com/Sj0JzHc"><img src="https://imgur.com/Sj0JzHc.png" title="source: imgur.com"></a>
+
+```dart
+IconButton(
+  onPressed: () {
+    debugPrint("Starred Me!");
+  },
+  color: Colors.orangeAccent,
+  icon: Icon(Icons.star),
+  disabledColor: Colors.grey,
+  highlightColor: Colors.black38,
+),
+```   
+
+### Floating Action Button
+### (FAB)
+
+|     Normal     |            Mini             |
+|----------------|------------------------------|
+|<a href="https://imgur.com/0cP3HMc"><img src="https://i.imgur.com/0cP3HMc.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/R3YXDQq"><img src="https://i.imgur.com/R3YXDQq.png" title="source: imgur.com" /></a>|
+|   --------     |`mini: true`|
+ 
+
+```dart
+return Scaffold(
+  floatingActionButton: new FloatingActionButton(
+    mini: true,
+    child: new Icon(Icons.add),
+    onPressed: () {},
+  ),
+);
+```
 
 ## TextField
 (Text box or Edit Text)
