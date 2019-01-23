@@ -146,7 +146,22 @@ Center(child: Container(
   height: 80.0,
 ))
 ```
-> **Note:** wraps any widget to center of its parent widget. (i.e orange is the parent widget)
+> **Note:** **Center** wraps any widget to center to its parent widget. (i.e orange is the parent widget)
+
+##Align
+
+```dart
+Align(
+  alignment: Alignment.bottomCenter, 
+  child: Container(
+  padding: const EdgeInsets.all(0.0),
+  color: Colors.cyanAccent,
+  width: 80.0,
+  height: 80.0,
+))
+```
+
+> **Note:** **Align** wraps any widget based on the Alignment direction to its parent widget. The default alignment for **Align** is center.
 
 # Material
 ## Text
