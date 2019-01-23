@@ -35,7 +35,6 @@
 ```dart
 Container(
   padding: const EdgeInsets.all(0.0),
-  alignment: Alignment.center,
   color: Colors.cyanAccent,
   width: 80.0,
   height: 80.0,
@@ -71,21 +70,18 @@ Row(
   children: <Widget>[
   Container(
     padding: const EdgeInsets.all(0.0),
-    alignment: Alignment.center,
     color: Colors.cyanAccent,
     width: 80.0,
     height: 80.0,
   ),
   Container(
     padding: const EdgeInsets.all(0.0),
-    alignment: Alignment.center,
     color: Colors.blueAccent,
     width: 80.0,
     height: 80.0,
   ),
   Container(
     padding: const EdgeInsets.all(0.0),
-    alignment: Alignment.center,
     color: Colors.orangeAccent,
     width: 80.0,
     height: 80.0,
@@ -119,21 +115,18 @@ Column(
   children: <Widget>[
     Container(
       padding: const EdgeInsets.all(0.0),
-      alignment: Alignment.center,
       color: Colors.cyanAccent,
       width: 80.0,
       height: 80.0,
     ),
     Container(
       padding: const EdgeInsets.all(0.0),
-      alignment: Alignment.center,
       color: Colors.blueAccent,
       width: 80.0,
       height: 80.0,
     ),
     Container(
       padding: const EdgeInsets.all(0.0),
-      alignment: Alignment.center,
       color: Colors.orangeAccent,
       width: 80.0,
       height: 80.0,
@@ -143,17 +136,17 @@ Column(
  ```     
 ## Center
 
+<a href="https://imgur.com/8vXWBcG"><img src="https://i.imgur.com/8vXWBcG.png" title="source: imgur.com" /></a>
+
 ```dart
 Center(child: Container(
   padding: const EdgeInsets.all(0.0),
-  alignment: Alignment.center,
   color: Colors.cyanAccent,
   width: 80.0,
   height: 80.0,
 ))
 ```
-
-wraps the child widget to center of its parent widget.
+> **Note:** wraps any widget to center of its parent widget. (i.e orange is the parent widget)
 
 # Material
 ## Text
