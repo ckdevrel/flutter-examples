@@ -141,7 +141,9 @@ Column(
   ],
 ),
  ```     
+## Center
 
+```dart
 Center(child: Container(
   padding: const EdgeInsets.all(0.0),
   alignment: Alignment.center,
@@ -149,6 +151,9 @@ Center(child: Container(
   width: 80.0,
   height: 80.0,
 ))
+```
+
+wraps the child widget to center of its parent widget.
 
 # Material
 ## Text
@@ -176,7 +181,7 @@ new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
 
 ### Flat Button
 
-<a href="https://imgur.com/21VBE83"><img src="https://imgur.com/21VBE83.png" title="source: imgur.com"></a>
+<a href="https://imgur.com/x30XGUf"><img src="https://i.imgur.com/x30XGUf.png" title="source: imgur.com" /></a>
 
 ```dart
 FlatButton(
