@@ -159,6 +159,7 @@ Center(child: Container(
 |<a href="https://imgur.com/Qt0dRjT"><img src="https://i.imgur.com/Qt0dRjT.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/8vXWBcG"><img src="https://i.imgur.com/8vXWBcG.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/IjDlZRl"><img src="https://i.imgur.com/IjDlZRl.png" title="source: imgur.com" /></a>|
 
 |.bottomLeft|.bottomCenter|.bottomRight|
+|:--:|:--:|:--:|
 |<a href="https://imgur.com/UQhL7R4"><img src="https://i.imgur.com/UQhL7R4.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/J27fCiH"><img src="https://i.imgur.com/J27fCiH.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/3rqg16p"><img src="https://i.imgur.com/3rqg16p.png" title="source: imgur.com" /></a>|
 
 ```dart
