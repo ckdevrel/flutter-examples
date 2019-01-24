@@ -148,11 +148,22 @@ Center(child: Container(
 ```
 > **Note:** **Center** wraps any widget to center to its parent widget. (i.e orange is the parent widget)
 
-##Align
+## Align
+
+|.topLeft|.topCenter|.topRight|
+|:--:|:--:|:--:|
+|<a href="https://imgur.com/tUjxft5"><img src="https://i.imgur.com/tUjxft5.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/CB5NLmh"><img src="https://i.imgur.com/CB5NLmh.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/ObaBABi"><img src="https://i.imgur.com/ObaBABi.png" title="source: imgur.com" /></a>|
+
+|.centerLeft|.center|.centerRight|
+|:--:|:--:|:--:|
+|<a href="https://imgur.com/Qt0dRjT"><img src="https://i.imgur.com/Qt0dRjT.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/8vXWBcG"><img src="https://i.imgur.com/8vXWBcG.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/IjDlZRl"><img src="https://i.imgur.com/IjDlZRl.png" title="source: imgur.com" /></a>|
+
+|.bottomLeft|.bottomCenter|.bottomRight|
+|<a href="https://imgur.com/UQhL7R4"><img src="https://i.imgur.com/UQhL7R4.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/J27fCiH"><img src="https://i.imgur.com/J27fCiH.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/3rqg16p"><img src="https://i.imgur.com/3rqg16p.png" title="source: imgur.com" /></a>|
 
 ```dart
 Align(
-  alignment: Alignment.bottomCenter, 
+  alignment: Alignment.center, 
   child: Container(
   padding: const EdgeInsets.all(0.0),
   color: Colors.cyanAccent,
