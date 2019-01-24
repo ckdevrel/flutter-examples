@@ -12,6 +12,7 @@
     - [MainAxisAlignment](#mainaxisalignment)
     - [CrossAxisAlignment](#crossaxisalignment)
   - [Center](#center) 
+  - [Align](#align)
 - [Material](#material)    
   - [Text](#text)
   - [Icon](#icon)
