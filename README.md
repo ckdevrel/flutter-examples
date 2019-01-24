@@ -183,7 +183,7 @@ Align(
 
 ```dart
 Padding(
-  padding: EdgeInsets.fromLTRB(10, 16, 10, 16) ,
+  padding: EdgeInsets.fromLTRB(24, 32, 24, 32) ,
   child: Container(
   padding: const EdgeInsets.all(0.0),
   color: Colors.cyanAccent,
