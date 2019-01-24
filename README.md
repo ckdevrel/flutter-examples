@@ -13,6 +13,7 @@
     - [CrossAxisAlignment](#crossaxisalignment)
   - [Center](#center) 
   - [Align](#align)
+  - [Padding](#padding)
 - [Material](#material)    
   - [Text](#text)
   - [Icon](#icon)
@@ -176,6 +177,20 @@ Align(
 
 > **Note:** **Align** wraps any widget based on the Alignment direction to its parent widget. The default alignment for **Align** is center.
 
+## Padding
+
+<a href="https://imgur.com/vsLgkNA"><img src="https://i.imgur.com/vsLgkNA.png" title="source: imgur.com" /></a>
+
+```dart
+Padding(
+  padding: EdgeInsets.fromLTRB(10, 16, 10, 16) ,
+  child: Container(
+  padding: const EdgeInsets.all(0.0),
+  color: Colors.cyanAccent,
+  width: 80.0,
+  height: 80.0,
+))
+```
 # Material
 ## Text
 <a href="https://imgur.com/yZPgBPy"><img src="https://imgur.com/yZPgBPy.png" title="source: imgur.com"></a>
