@@ -19,6 +19,7 @@
   - [SizedBox](#sizedbox)
   - [Expanded](#expanded)
   - [Flexible](#flexible)
+  - [ConstrainedBox](#constrainedbox)
 - [Material](#material)    
   - [Text](#text)
   - [Icon](#icon)
@@ -277,6 +278,23 @@ Row(
 > **Hint:** 
 1. To make **Flexible** behave similar to Expanded, then add `fit: FlexFit.tight` 
 2. By default fit type for **Flexible** is `fit: FlexFit.loose`.
+
+## ConstrainedBox
+
+|     Expand     |     Expand with Height     |     Tight     |      Loose     |
+|----------------|----------------------------|---------------|----------------|
+|<a href="https://imgur.com/NVFRLJj"><img src="https://i.imgur.com/NVFRLJj.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/EZav2GR"><img src="https://i.imgur.com/EZav2GR.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/y4i7kgV"><img src="https://i.imgur.com/y4i7kgV.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/CD2vkio"><img src="https://i.imgur.com/CD2vkio.png" title="source: imgur.com" /></a>|
+
+
+```dart
+ConstrainedBox(
+  constraints: BoxConstraints.expand(height: 300),
+  child: Container(
+    color: Colors.orange,
+    child: Padding(padding: EdgeInsets.all(16), child: Text('Box Constraint', style: TextStyle(color: Colors.white),)),
+))
+```
+
 
 # Material
 ## Text
