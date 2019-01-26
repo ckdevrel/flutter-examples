@@ -361,23 +361,23 @@ TextField(
 
 |     Simple     |
 |----------------|
-|<a href="https://imgur.com/UumXHqu"><img src="https://imgur.com/UumXHqu.png" title="source: imgur.com"></a>|
+|<a href="https://imgur.com/fmSnZ6D"><img src="https://i.imgur.com/fmSnZ6D.png" title="source: imgur.com" /></a>|
 
 |     Icon       |
 |----------------|
-|<a href="https://imgur.com/NZAz3op"><img src="https://imgur.com/NZAz3op.png" title="source: imgur.com"></a>|
+|<a href="https://imgur.com/2yixTp7"><img src="https://i.imgur.com/2yixTp7.png" title="source: imgur.com" /></a>|
 |`InputDecoration(icon: Icon(Icons.account_circle, color: Colors.blue))`|
 
 
 |     Prefix     |            Suffix             |
 |----------------|-------------------------------|
-|<a href="https://imgur.com/wyz5J33"><img src="https://imgur.com/wyz5J33.png" title="source: imgur.com"></a>|<a href="https://imgur.com/yBSuZ5S"><img src="https://imgur.com/yBSuZ5S.png" title="source: imgur.com"></a>|
+|<a href="https://imgur.com/2yixTp7"><img src="https://i.imgur.com/2yixTp7.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/jtveNIP"><img src="https://i.imgur.com/jtveNIP.png" title="source: imgur.com" /></a>|
 |`InputDecoration(prefixIcon: Icon(Icons.account_circle, color: Colors.blue))`|`InputDecoration(suffixIcon: Icon(Icons.account_circle, color: Colors.blue))`|
  
 
 ### Outer Line Style 
 
-<a href="https://imgur.com/Lkq5WG2"><img src="https://imgur.com/Lkq5WG2.png" title="source: imgur.com"></a>
+<a href="https://imgur.com/7J6MuH3"><img src="https://i.imgur.com/7J6MuH3.png" title="source: imgur.com" /></a>
 
 ```dart
 TextField(
