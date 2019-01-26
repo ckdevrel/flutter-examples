@@ -288,7 +288,7 @@ Row(
 
 ```dart
 ConstrainedBox(
-  constraints: BoxConstraints.expand(height: 300),
+  constraints: BoxConstraints.expand(height: 100),
   child: Container(
     color: Colors.orange,
     child: Padding(padding: EdgeInsets.all(16), child: Text('Box Constraint', style: TextStyle(color: Colors.white),)),
