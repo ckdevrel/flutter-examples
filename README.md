@@ -359,9 +359,10 @@ TextField(
 )
 ```    
 
-|     Simple     |
-|----------------|
-|<a href="https://imgur.com/fmSnZ6D"><img src="https://i.imgur.com/fmSnZ6D.png" title="source: imgur.com" /></a>|
+|     Simple     |     Icon       |
+|----------------|----------------|
+|<a href="https://imgur.com/fmSnZ6D"><img src="https://i.imgur.com/fmSnZ6D.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/2yixTp7"><img src="https://i.imgur.com/2yixTp7.png" title="source: imgur.com" /></a>|
+| |`InputDecoration(icon: Icon(Icons.account_circle, color: Colors.blue))`|
 
 |     Icon       |
 |----------------|
