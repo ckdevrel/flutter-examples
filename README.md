@@ -370,7 +370,7 @@ TextField(
 
 |     Icon     |    Prefix     |     Suffix     |
 |--------------|---------------|----------------|
-|InputDecoration(icon: Icon(Icons.account_circle, color: Colors.blue))|InputDecoration(prefixIcon: Icon(Icons.account_circle, color: Colors.blue))	| InputDecoration(suffixIcon: Icon(Icons.account_circle, color: Colors.blue))|
+|```InputDecoration(icon: Icon(Icons.account_circle, color: Colors.blue))```|```InputDecoration(prefixIcon: Icon(Icons.account_circle, color: Colors.blue))```|```InputDecoration(suffixIcon: Icon(Icons.account_circle, color: Colors.blue))```|
 
 ### Outer Line Style 
 
