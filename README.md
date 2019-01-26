@@ -3,6 +3,8 @@
 
 [![](https://img.shields.io/twitter/follow/espadrine.svg?label=Follow&style=social)](https://twitter.com/takeoffandroid)
 
+[![](https://img.shields.io/github/stars/badges/shields.svg?label=Stars&style=social)](https://github.com/devsolabs/FlutterExamples)
+
 - [Layouts](#layouts)
   - [Container](#container)
   - [Row](#row)
