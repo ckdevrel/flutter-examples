@@ -219,7 +219,7 @@ SizedBox(
 
 |     Row     |            Column             |
 |----------------|-------------------------------|
-|<a href="https://imgur.com/lQDfotj"><img src="https://i.imgur.com/lQDfotj.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/r5gx92N"><img src="https://i.imgur.com/r5gx92N.png" title="source: imgur.com" /></a>|
+|<a href="https://imgur.com/lQDfotj"><img src="https://i.imgur.com/lQDfotj.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/z8FUGgu"><img src="https://i.imgur.com/z8FUGgu.png" title="source: imgur.com" /></a>|
  
 Row(
   mainAxisAlignment: MainAxisAlignment.center,
