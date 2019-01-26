@@ -1,9 +1,8 @@
 
 <a href='https://ko-fi.com/U6U0GSTS' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
-[![](https://img.shields.io/twitter/follow/espadrine.svg?label=Follow&style=social)](https://twitter.com/takeoffandroid)
 
-[![](https://img.shields.io/github/stars/badges/shields.svg?label=Stars&style=social)](https://github.com/devsolabs/FlutterExamples)
+[![](https://img.shields.io/twitter/follow/espadrine.svg?label=Follow&style=social)](https://twitter.com/takeoffandroid) [![](https://img.shields.io/github/stars/badges/shields.svg?label=Stars&style=social)](https://github.com/devsolabs/FlutterExamples)
 
 - [Layouts](#layouts)
   - [Container](#container)
