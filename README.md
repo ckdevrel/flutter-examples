@@ -367,7 +367,10 @@ TextField(
 |     Prefix     |     Suffix     |
 |----------------|----------------|
 |<a href="https://imgur.com/I3DDSx6"><img src="https://i.imgur.com/I3DDSx6.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/jtveNIP"><img src="https://i.imgur.com/jtveNIP.png" title="source: imgur.com" /></a>|
- 
+
+|     Icon     |    Prefix     |     Suffix     |
+|--------------|---------------|----------------|
+|InputDecoration(icon: Icon(Icons.account_circle, color: Colors.blue))|InputDecoration(prefixIcon: Icon(Icons.account_circle, color: Colors.blue))	| InputDecoration(suffixIcon: Icon(Icons.account_circle, color: Colors.blue))|
 
 ### Outer Line Style 
 
