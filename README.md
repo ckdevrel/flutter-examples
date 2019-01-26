@@ -345,6 +345,15 @@ return Scaffold(
 
 ### Under Line Style 
 
+|     Simple     |     Icon       |
+|----------------|----------------|
+|<a href="https://imgur.com/fmSnZ6D"><img src="https://i.imgur.com/fmSnZ6D.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/2yixTp7"><img src="https://i.imgur.com/2yixTp7.png" title="source: imgur.com" /></a>|
+
+
+|     Prefix     |     Suffix     |
+|----------------|----------------|
+|<a href="https://imgur.com/I3DDSx6"><img src="https://i.imgur.com/I3DDSx6.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/jtveNIP"><img src="https://i.imgur.com/jtveNIP.png" title="source: imgur.com" /></a>|
+
 ```dart
 TextField(
   decoration: InputDecoration(
@@ -358,15 +367,6 @@ TextField(
   ),
 )
 ```    
-
-|     Simple     |     Icon       |
-|----------------|----------------|
-|<a href="https://imgur.com/fmSnZ6D"><img src="https://i.imgur.com/fmSnZ6D.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/2yixTp7"><img src="https://i.imgur.com/2yixTp7.png" title="source: imgur.com" /></a>|
-
-
-|     Prefix     |     Suffix     |
-|----------------|----------------|
-|<a href="https://imgur.com/I3DDSx6"><img src="https://i.imgur.com/I3DDSx6.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/jtveNIP"><img src="https://i.imgur.com/jtveNIP.png" title="source: imgur.com" /></a>|
 
 |     Icon     |    Prefix     |     Suffix     |
 |--------------|---------------|----------------|
