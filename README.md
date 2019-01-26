@@ -17,6 +17,7 @@
   - [Align](#align)
   - [Padding](#padding)
   - [SizedBox](#sizedbox)
+  - [Expanded](#expanded)
 - [Material](#material)    
   - [Text](#text)
   - [Icon](#icon)
