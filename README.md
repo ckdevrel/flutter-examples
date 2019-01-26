@@ -215,6 +215,32 @@ SizedBox(
 
 > **Note:** **SizedBox** constraints its child widget to match based on specific size of width and height.
 
+## Expanded
+
+|     Row     |            Column             |
+|----------------|-------------------------------|
+|<a href="https://imgur.com/lQDfotj"><img src="https://i.imgur.com/lQDfotj.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/r5gx92N"><img src="https://i.imgur.com/r5gx92N.png" title="source: imgur.com" /></a>|
+ 
+Row(
+  mainAxisAlignment: MainAxisAlignment.center,
+  mainAxisSize: MainAxisSize.max,
+  crossAxisAlignment: CrossAxisAlignment.center,
+  children: <Widget>[
+    Expanded(
+      child: Container(color: Colors.cyan, height: 80),
+      flex: 2,
+    ),
+    Expanded(
+      child: Container(color: Colors.indigoAccent, height: 80),
+      flex: 3,
+    ),
+    Expanded(
+      child: Container(color: Colors.orange, height: 80),
+      flex: 4,
+    ),
+  ],
+),
+
 # Material
 ## Text
 <a href="https://imgur.com/yZPgBPy"><img src="https://imgur.com/yZPgBPy.png" title="source: imgur.com"></a>
