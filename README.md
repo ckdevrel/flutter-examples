@@ -220,7 +220,8 @@ SizedBox(
 |     Row     |            Column             |
 |----------------|-------------------------------|
 |<a href="https://imgur.com/lQDfotj"><img src="https://i.imgur.com/lQDfotj.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/z8FUGgu"><img src="https://i.imgur.com/z8FUGgu.png" title="source: imgur.com" /></a>|
- 
+
+```dart
 Row(
   mainAxisAlignment: MainAxisAlignment.center,
   mainAxisSize: MainAxisSize.max,
@@ -240,6 +241,7 @@ Row(
     ),
   ],
 ),
+```
 
 # Material
 ## Text
