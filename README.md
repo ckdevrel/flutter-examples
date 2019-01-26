@@ -15,6 +15,7 @@
   - [Center](#center) 
   - [Align](#align)
   - [Padding](#padding)
+  - [SizedBox](#sizedbox)
 - [Material](#material)    
   - [Text](#text)
   - [Icon](#icon)
@@ -192,6 +193,28 @@ Padding(
   height: 80.0,
 ))
 ```
+
+## SizedBox
+
+<a href="https://imgur.com/1dUkeuZ"><img src="https://i.imgur.com/1dUkeuZ.png" title="source: imgur.com" /></a>
+
+```dart
+SizedBox(
+  width: 200.0,
+  height: 100.0,
+  child: Card(
+    color: Colors.indigoAccent,
+    child: Center(
+        child: Text('SizedBox',
+            style: TextStyle(color: Colors.white)
+         )
+       )
+     )
+   )
+```
+
+> **Note:** **SizedBox** constraints its child widget to match based on width and height.
+
 # Material
 ## Text
 <a href="https://imgur.com/yZPgBPy"><img src="https://imgur.com/yZPgBPy.png" title="source: imgur.com"></a>
