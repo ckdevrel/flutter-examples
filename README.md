@@ -284,7 +284,7 @@ Row(
 |     Expand     |     Expand with Height     |     Tight     |      Loose     |
 |----------------|----------------------------|---------------|----------------|
 |<a href="https://imgur.com/NVFRLJj"><img src="https://i.imgur.com/NVFRLJj.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/EZav2GR"><img src="https://i.imgur.com/EZav2GR.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/kRIXDqB"><img src="https://i.imgur.com/kRIXDqB.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/CD2vkio"><img src="https://i.imgur.com/CD2vkio.png" title="source: imgur.com" /></a>|
-|BoxConstraints.expand()|BoxConstraints.expand(height: 100)|`BoxConstraints.tight(Size(125, 100))`|`BoxConstraints.loose(Size(125, 100))`|
+|`BoxConstraints.expand()`|`BoxConstraints.expand(height: 100)`|`BoxConstraints.tight(Size(125, 100))`|`BoxConstraints.loose(Size(125, 100))`|
 
 ```dart
 ConstrainedBox(
