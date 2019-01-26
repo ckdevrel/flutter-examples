@@ -18,6 +18,7 @@
   - [Padding](#padding)
   - [SizedBox](#sizedbox)
   - [Expanded](#expanded)
+  - [Flexible](#flexible)
 - [Material](#material)    
   - [Text](#text)
   - [Icon](#icon)
@@ -244,6 +245,38 @@ Row(
   ],
 ),
 ```
+
+## Flexible
+
+|     Row     |            Column             |
+|----------------|-------------------------------|
+|<a href="https://imgur.com/5ZPdv5O"><img src="https://i.imgur.com/5ZPdv5O.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/jhduYDT"><img src="https://i.imgur.com/jhduYDT.png" title="source: imgur.com" /></a>|
+
+```dart
+Row(
+  mainAxisAlignment: MainAxisAlignment.center,
+  mainAxisSize: MainAxisSize.max,
+  crossAxisAlignment: CrossAxisAlignment.center,
+  children: <Widget>[
+    Flexible(
+      child: Container(color: Colors.cyanAccent, height: 80, width: 80),
+      flex: 2,
+    ),
+    Flexible(
+    child: Container(color: Colors.indigoAccent, height: 80, width: 80),
+      flex: 3,
+    ),
+    Flexible(
+      child: Container(color: Colors.orange, height: 80, width: 80),
+      flex: 4,
+    ),
+  ],
+),
+```
+
+> **Hint:** 
+1. To make **Flexible** behave similar to Expanded, then add `fit: FlexFit.tight` 
+2. By default fit type for **Flexible** is `fit: FlexFit.loose`.
 
 # Material
 ## Text
