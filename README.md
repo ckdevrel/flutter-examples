@@ -213,7 +213,7 @@ SizedBox(
    )
 ```
 
-> **Note:** **SizedBox** constraints its child widget to match based on width and height.
+> **Note:** **SizedBox** constraints its child widget to match based on specific size of width and height.
 
 # Material
 ## Text
