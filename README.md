@@ -298,7 +298,7 @@ ConstrainedBox(
 
 ## Stack
 
-|AlignmentDirectional.centerStart|AlignmentDirectional.Center|AlignmentDirectional.centerEnd|
+|AlignmentDirectional.centerStart|AlignmentDirectional.center|AlignmentDirectional.centerEnd|
 |--------------------------------|---------------------------|------------------------------|
 |<a href="https://imgur.com/5WpzDWb"><img src="https://i.imgur.com/5WpzDWb.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/Bb1bs22"><img src="https://i.imgur.com/Bb1bs22.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/Dkuc0mn"><img src="https://i.imgur.com/Dkuc0mn.png" title="source: imgur.com" /></a>|
 
@@ -310,7 +310,34 @@ ConstrainedBox(
 |-----------------------------|------------------------------|---------------------------|
 |<a href="https://imgur.com/8nucWaD"><img src="https://i.imgur.com/8nucWaD.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/EpvPFRr"><img src="https://i.imgur.com/EpvPFRr.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/Kl8NjrN"><img src="https://i.imgur.com/Kl8NjrN.png" title="source: imgur.com" /></a>|
 
-> **Credits:** https://medium.com/flutter-community/flutter-for-android-developers-how-to-design-framelayout-in-flutter-93a19fc7e7a6
+```dart
+Stack(
+  alignment: AlignmentDirectional.center,
+    children: [
+      Container(
+        height: 200.0,
+        width: 200.0,
+        color: Colors.red,
+      ),
+      Container(
+        height: 150.0,
+        width: 150.0,
+        color: Colors.blue,
+      ),
+      Container(
+        height: 100.0,
+        width: 100.0,
+        color: Colors.green,
+      ),
+      Container(
+        height: 50.0,
+        width: 50.0,
+        color: Colors.yellow,
+      ),
+    ],
+),
+```
+> **Credits:** Fore more detailed blog post for this. Please visit https://medium.com/flutter-community/flutter-for-android-developers-how-to-design-framelayout-in-flutter-93a19fc7e7a6
 
 # Material
 ## Text
