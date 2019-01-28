@@ -302,6 +302,16 @@ ConstrainedBox(
 |--------------------------------|---------------------------|------------------------------|
 |<a href="https://imgur.com/5WpzDWb"><img src="https://i.imgur.com/5WpzDWb.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/Bb1bs22"><img src="https://i.imgur.com/Bb1bs22.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/Dkuc0mn"><img src="https://i.imgur.com/Dkuc0mn.png" title="source: imgur.com" /></a>|
 
+|AlignmentDirectional.bottomStart|AlignmentDirectional.bottomCenter|AlignmentDirectional.bottomEnd|
+|--------------------------------|---------------------------|------------------------------|
+|<a href="https://imgur.com/odCg42L"><img src="https://i.imgur.com/odCg42L.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/bykS3Qf"><img src="https://i.imgur.com/bykS3Qf.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/UgRiSq0"><img src="https://i.imgur.com/UgRiSq0.png" title="source: imgur.com" /></a>|
+
+|AlignmentDirectional.topStart|AlignmentDirectional.topCenter|AlignmentDirectional.topEnd|
+|-------------------------- --|------------------------------|---------------------------|
+|<a href="https://imgur.com/8nucWaD"><img src="https://i.imgur.com/8nucWaD.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/EpvPFRr"><img src="https://i.imgur.com/EpvPFRr.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/Kl8NjrN"><img src="https://i.imgur.com/Kl8NjrN.png" title="source: imgur.com" /></a>|
+
+> **Credits:** https://medium.com/flutter-community/flutter-for-android-developers-how-to-design-framelayout-in-flutter-93a19fc7e7a6
+
 # Material
 ## Text
 <a href="https://imgur.com/yZPgBPy"><img src="https://imgur.com/yZPgBPy.png" title="source: imgur.com"></a>
