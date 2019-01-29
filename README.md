@@ -348,7 +348,6 @@ Stack(
 
 ```dart
 Wrap(
-  runSpacing: 0,
   spacing: 4.0, // gap between lines
   children: <Widget>[
     Chip(
