@@ -33,9 +33,10 @@
     - [Icon Button](#icon-button)
     - [Floating Action Button](#floating-action-button)
   - [Input Field](#input-field)
-  	- [TextField](#TextField)
+  	- [TextField](#textfield)
     	- [Under Line Style ](#under-line-style )   
-    	- [Outer Line Style ](#outer-line-style )  
+    	- [Outer Line Style ](#outer-line-style ) 
+    - [TextFormField](#textformfield)
 
  - [Utilities](#utilities)
   
@@ -521,7 +522,7 @@ return Scaffold(
   ),
 );
 ```
-
+## Input Field
 ## TextField
 (Text box or Edit Text)
 
@@ -574,6 +575,29 @@ TextField(
 
 > **Note:** Icon, Prefix Icon and Suffix Icon are similar to Underline TextField
 
+## TextFormField
+
+<a href="https://imgur.com/DCAnsns"><img src="https://i.imgur.com/DCAnsns.png" title="source: imgur.com" /></a>
+
+```dart
+TextFormField(
+  style: TextStyle(color: Colors.white),
+    obscureText: true, // Use secure text for passwords.
+    decoration: InputDecoration(
+    enabledBorder: UnderlineInputBorder(borderSide: BorderSide(color: Colors.white)),
+        focusedBorder: UnderlineInputBorder(
+          borderSide: BorderSide(color: Colors.yellow)
+    ),
+    hintText: 'Password',
+    hintStyle: TextStyle(color: Colors.white),
+    labelText: 'Type your password',
+    labelStyle: TextStyle(color: Colors.yellow))
+)
+```
+
+> **References:** 
+1. https://medium.com/@anilcan/forms-in-flutter-6e1364eafdb5
+2. https://codingwithjoe.com/building-forms-with-flutter/
 
 ## Utilities
 
