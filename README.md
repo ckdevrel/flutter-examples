@@ -32,9 +32,10 @@
     - [Raised Button](#raised-button)
     - [Icon Button](#icon-button)
     - [Floating Action Button](#floating-action-button)
-  - [TextField](#TextField)
-    - [Under Line Style ](#under-line-style )   
-    - [Outer Line Style ](#outer-line-style )  
+  - [Input Field](#input-field)
+  	- [TextField](#TextField)
+    	- [Under Line Style ](#under-line-style )   
+    	- [Outer Line Style ](#outer-line-style )  
 
  - [Utilities](#utilities)
   
