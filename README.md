@@ -23,10 +23,10 @@
   - [ConstrainedBox](#constrainedbox)
   - [Stack](#stack)
   - [Wrap](#wrap)
-
-- [Material](#material)    
   - [Text](#text)
   - [Icon](#icon)
+
+- [Material](#material)    
   - [Button](#button)
     - [Flat Button](#flat-button)
     - [Raised Button](#raised-button)
@@ -425,8 +425,6 @@ Wrap(
   ],
 )
 ```
-
-# Material
 ## Text
 <a href="https://imgur.com/yZPgBPy"><img src="https://imgur.com/yZPgBPy.png" title="source: imgur.com"></a>
 
@@ -447,6 +445,8 @@ new Text(
 ```dart
 new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
 ```
+
+# Material
 
 ## Button
 
