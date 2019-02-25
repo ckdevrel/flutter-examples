@@ -2,7 +2,7 @@
 <a href='https://ko-fi.com/A302HW7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=f' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> 
 
 
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-FlutterExamples-brightgreen.svg?style=plastic)](https://android-arsenal.com/details/3/7486)[![](https://img.shields.io/twitter/follow/espadrine.svg?label=Follow&style=social)](https://twitter.com/takeoffandroid)[![](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/takeoffandroid)[![](https://img.shields.io/github/stars/badges/shields.svg?label=Stars&style=social)](https://github.com/devsolabs/FlutterExamples)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-FlutterExamples-brightgreen.svg?style=plastic)](https://android-arsenal.com/details/3/7486)[![](https://img.shields.io/twitter/follow/espadrine.svg?label=Follow&style=social)](https://twitter.com/takeoffandroid)[![](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/takeoffandroid)
 
 <a href="https://imgur.com/VN2su2K"><img src="https://i.imgur.com/VN2su2K.png" title="source: imgur.com" /></a>
 
