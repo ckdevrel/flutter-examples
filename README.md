@@ -23,6 +23,7 @@
   - [ConstrainedBox](#constrainedbox)
   - [Stack](#stack)
   - [Wrap](#wrap)
+  - [Positioned](#positioned)
   - [Text](#text)
   - [Icon](#icon)
 
@@ -426,6 +427,30 @@ Wrap(
   ],
 )
 ```
+## Positioned
+
+<a href="https://imgur.com/vizQUeG"><img src="https://i.imgur.com/vizQUeG.jpg" title="source: imgur.com" /></a>
+
+```dart
+ConstrainedBox(
+  constraints: BoxConstraints.tight(Size(double.infinity, 256)),
+  child: Stack(
+    alignment: AlignmentDirectional.center,
+    children: <Widget>[
+      Positioned(
+        top: 0.0,
+        child: Icon(Icons.calendar_today,
+            size: 128.0, color: Colors.lightBlueAccent),
+      ),
+      Positioned(
+          top: 4,
+          right: 110,
+          child: CircleAvatar(radius: 16, backgroundColor: Colors.red)),
+    ],
+  ),
+)
+```  
+
 ## Text
 <a href="https://imgur.com/yZPgBPy"><img src="https://imgur.com/yZPgBPy.png" title="source: imgur.com"></a>
 
