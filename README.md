@@ -526,7 +526,7 @@ return Scaffold(
 
 |     DropdownButton     |     DropdownMenuItem     |
 |------------------------|--------------------------|
-|<a href="https://imgur.com/6iLBoZo"><img src="https://i.imgur.com/6iLBoZo.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/S3pgAUi"><img src="https://i.imgur.com/S3pgAUi.png" title="source: imgur.com" /></a>|
+|<a href="https://imgur.com/6iLBoZo"><img src="https://i.imgur.com/6iLBoZo.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/20akmMN"><img src="https://i.imgur.com/20akmMN.jpg" title="source: imgur.com" /></a>|
 
 ```dart
 import 'package:flutter/material.dart';
@@ -544,15 +544,6 @@ class ChangeBGColorDropdownState extends State<CustomDropDownWidget> {
     DropDownItemModel(versionName: "Donut"),
     DropDownItemModel(versionName: "Eclair"),
     DropDownItemModel(versionName: "Froyo"),
-    DropDownItemModel(versionName: "Ginger bread"),
-    DropDownItemModel(versionName: "Honey comb"),
-    DropDownItemModel(versionName: "Ice cream sandwich"),
-    DropDownItemModel(versionName: "Jelly Bean"),
-    DropDownItemModel(versionName: "Kit kat"),
-    DropDownItemModel(versionName: "Lollipop"),
-    DropDownItemModel(versionName: "Marshmallow"),
-    DropDownItemModel(versionName: "Nougat"),
-    DropDownItemModel(versionName: "Oreo"),
   ];
 
   DropDownItemModel _dropDownItemModel;
