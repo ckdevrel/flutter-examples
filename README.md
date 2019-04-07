@@ -522,6 +522,90 @@ return Scaffold(
   ),
 );
 ```
+### DropdownButton
+
+|     DropdownButton     |     DropdownMenuItem     |
+|------------------------|--------------------------|
+|<a href="https://imgur.com/6iLBoZo"><img src="https://i.imgur.com/6iLBoZo.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/S3pgAUi"><img src="https://i.imgur.com/S3pgAUi.png" title="source: imgur.com" /></a>|
+
+```dart
+import 'package:flutter/material.dart';
+
+class CustomDropDownWidget extends StatefulWidget {
+  @override
+  ChangeBGColorDropdownState createState() {
+    return new ChangeBGColorDropdownState();
+  }
+}
+
+class ChangeBGColorDropdownState extends State<CustomDropDownWidget> {
+  List<DropDownItemModel> _dropDownItemModelList = [
+    DropDownItemModel(versionName: "Cupcake"),
+    DropDownItemModel(versionName: "Donut"),
+    DropDownItemModel(versionName: "Eclair"),
+    DropDownItemModel(versionName: "Froyo"),
+    DropDownItemModel(versionName: "Ginger bread"),
+    DropDownItemModel(versionName: "Honey comb"),
+    DropDownItemModel(versionName: "Ice cream sandwich"),
+    DropDownItemModel(versionName: "Jelly Bean"),
+    DropDownItemModel(versionName: "Kit kat"),
+    DropDownItemModel(versionName: "Lollipop"),
+    DropDownItemModel(versionName: "Marshmallow"),
+    DropDownItemModel(versionName: "Nougat"),
+    DropDownItemModel(versionName: "Oreo"),
+  ];
+
+  DropDownItemModel _dropDownItemModel;
+
+  @override
+  void initState() {
+    super.initState();
+    _dropDownItemModel = _dropDownItemModelList[0];
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        body: Center(
+          child: Container(
+            padding: EdgeInsets.fromLTRB(16, 0, 16, 0),
+            color: Colors.orangeAccent,
+            child: DropdownButton<DropDownItemModel>(
+              underline: Container(
+                decoration: const BoxDecoration(
+                    border: Border(bottom: BorderSide(color: Colors.transparent))
+                ),
+              ),
+              iconEnabledColor: Colors.white,
+              items: _dropDownItemModelList
+                  .map((dropDownItemModel) =>
+                      DropdownMenuItem<DropDownItemModel>(
+                        child: Text(dropDownItemModel.versionName),
+                        value: dropDownItemModel,
+                      ))
+                  .toList(),
+              onChanged: (DropDownItemModel dropDownItemModel) {
+                setState(() => _dropDownItemModel = dropDownItemModel);
+              },
+              hint: Text(
+                _dropDownItemModel.versionName,
+                style: TextStyle(color: Colors.white),
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class DropDownItemModel {
+  String versionName;
+
+  DropDownItemModel({this.versionName});
+}
+```
 ## Input Field
 ## TextField
 (Text box or Edit Text)
