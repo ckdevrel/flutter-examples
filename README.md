@@ -33,6 +33,8 @@
     - [Raised Button](#raised-button)
     - [Icon Button](#icon-button)
     - [Floating Action Button](#floating-action-button)
+    - [Navigation Drawer](#navigation-drawer)
+    - [DropdownButton](#dropdownbutton)
   - [Input Field](#input-field)
   	- [TextField](#textfield)
     	- [Under Line Style ](#under-line-style )   
@@ -622,6 +624,75 @@ class DropDownItemModel {
 
   DropDownItemModel({this.versionName});
 }
+```
+
+### Navigation Drawer
+
+*Header and List Elements*
+
+```dart
+   @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+          backgroundColor: AppColors.gradient_purple_begin,
+          title: Text("XSpends")),
+      drawer: new Drawer(
+        child: new ListView(
+          children: <Widget>[
+            new UserAccountsDrawerHeader(
+              accountName: new Text("TakeoffAndroid"),
+              accountEmail: new Text("takeoffandroid@gmail.com"),
+              currentAccountPicture: CircleAvatar(
+                backgroundColor: Colors.yellow,
+                child: Text('T', style: TextStyle(color: Colors.black87))
+              ),
+              decoration: new BoxDecoration(
+                gradient: LinearGradient(
+                    begin: Alignment.centerLeft,
+                    end: Alignment.centerRight,
+                    colors: [
+                      AppColors.gradient_purple_begin,
+                      AppColors.gradient_purple_end
+                    ]),
+              ),
+            ),
+            new ListTile(
+                leading: Icon(Icons.home),
+                title: new Text("Home"),
+                onTap: () {
+                  Navigator.pop(context);
+                }),
+            new ListTile(
+                leading: Icon(Icons.person),
+                title: new Text("Friends"),
+                onTap: () {
+                  Navigator.pop(context);
+                }),
+            new ListTile(
+                leading: Icon(Icons.share),
+                title: new Text("Share"),
+                onTap: () {
+                  Navigator.pop(context);
+                }),
+            new Divider(),
+            new ListTile(
+                leading: Icon(Icons.settings),
+                title: new Text("Settings"),
+                onTap: () {
+                  Navigator.pop(context);
+                }),
+            new ListTile(
+                leading: Icon(Icons.power_settings_new),
+                title: new Text("Logout"),
+                onTap: () {
+                  Navigator.pop(context);
+                }),
+          ],
+        ),
+      ),
+    );
+  }
 ```
 ## Input Field
 ## TextField
