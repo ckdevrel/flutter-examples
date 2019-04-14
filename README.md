@@ -627,7 +627,7 @@ class DropDownItemModel {
 
 ### Navigation Drawer
 
-<a href="https://imgur.com/MXh74nQ"><img src="https://i.imgur.com/MXh74nQ.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/yG6vIxa"><img src="https://i.imgur.com/yG6vIxa.jpg" title="source: imgur.com" /></a>
 
 ```dart
    @override
