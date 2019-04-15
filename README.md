@@ -693,6 +693,35 @@ class DropDownItemModel {
     );
   }
 ```
+### Tab Bar View
+
+|     Simple Text (Line Indicator)     |     Simple Text (Backround Indicator)    |
+|--------------------------------------|------------------------------------------|
+|<a href="https://imgur.com/NVFRLJj"><img src="https://i.imgur.com/NVFRLJj.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/EZav2GR"><img src="https://i.imgur.com/EZav2GR.png" title="source: imgur.com" />|
+|<a href="https://gist.github.com/TakeoffAndroid/40745aef287997f7e55c34f0de857f43j">View Code</a>|<a href="https://gist.github.com/TakeoffAndroid/012fa114639727e8ccbf4f3efe4288e2">View Code</a>|
+
+```dart
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: DefaultTabController(
+        length: 2,
+        child: Scaffold(
+          appBar: AppBar(
+              backgroundColor: Colors.indigoAccent,
+              flexibleSpace: TextTabBarLineIndicator()),
+          body: TabBarView(
+            children: [
+              Center(child: Text('Login Screen', textScaleFactor: 2)),
+              Center(child: Text('Signup Screen', textScaleFactor: 2)),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+```
 ## Input Field
 ## TextField
 (Text box or Edit Text)
