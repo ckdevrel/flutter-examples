@@ -40,7 +40,7 @@
     - [TextFormField](#textformfield)
   - [DropdownButton](#dropdownbutton)
   - [Navigation Drawer](#navigation-drawer)
-  - [Tab Bar View](#Tab-Bar-View)
+  - [Tab View](#tab-view)
 
  - [Utilities](#utilities)
   
@@ -694,7 +694,7 @@ class DropDownItemModel {
     );
   }
 ```
-### Tab Bar View
+### Tab View
 
 |     Simple Text (Line Indicator)     |     Simple Text (Backround Indicator)    |
 |--------------------------------------|------------------------------------------|
