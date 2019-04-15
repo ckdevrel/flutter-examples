@@ -698,12 +698,18 @@ class DropDownItemModel {
 |     Simple Text (Line Indicator)     |     Simple Text (Backround Indicator)    |
 |--------------------------------------|------------------------------------------|
 |<a href="https://imgur.com/6vclecU"><img src="https://i.imgur.com/6vclecU.jpg" title="source: imgur.com" /></a>|<a href="https://imgur.com/Tj3Cgr1"><img src="https://i.imgur.com/Tj3Cgr1.jpg" title="source: imgur.com" /></a>|
-|<a href="https://gist.github.com/TakeoffAndroid/40745aef287997f7e55c34f0de857f43j">View Code</a>|<a href="https://gist.github.com/TakeoffAndroid/012fa114639727e8ccbf4f3efe4288e2">View Code</a>|
+|<a href="https://gist.github.com/TakeoffAndroid/40745aef287997f7e55c34f0de857f43" target="_blank">View Code</a>|<a href="https://gist.github.com/TakeoffAndroid/012fa114639727e8ccbf4f3efe4288e2" target="_blank">View Code</a>|
 
-|     Icon Text (Line Indicator)     |     Icon Text (Backround Indicator)    |
-|--------------------------------------|------------------------------------------|
+|     Icon (Line Indicator)     |   Icon (Backround Indicator)      |
+|-------------------------------|-----------------------------------|
 |<a href="https://imgur.com/zkMk0Vj"><img src="https://i.imgur.com/zkMk0Vj.jpg" title="source: imgur.com" /></a>|<a href="https://imgur.com/X6NGwIB"><img src="https://i.imgur.com/X6NGwIB.jpg" title="source: imgur.com" /></a>|
-|<a href="https://gist.github.com/TakeoffAndroid/504a698487777f9df3c02d84542a8ee2">View Code</a>|<a href="https://gist.github.com/TakeoffAndroid/f24c0b968980194127ce90b98881e872">View Code</a>|
+|<a href="https://gist.github.com/TakeoffAndroid/504a698487777f9df3c02d84542a8ee2" target="_blank">View Code</a>|<a href="https://gist.github.com/TakeoffAndroid/f24c0b968980194127ce90b98881e872" target="_blank">View Code</a>|
+
+|     Icon Text (Horizontal)    |      Icon Text (Vertical)     |
+|-------------------------------|-------------------------------|
+|<a href="https://imgur.com/ynrqXFg"><img src="https://i.imgur.com/ynrqXFg.jpg" title="source: imgur.com" /></a>|<a href="https://imgur.com/FeNnj0Q"><img src="https://i.imgur.com/FeNnj0Q.jpg" title="source: imgur.com" /></a>|
+|<a href="https://gist.github.com/TakeoffAndroid/bf378a4d886cba6823adca7549c0a843" target="_blank">View Code</a>|<a href="https://gist.github.com/TakeoffAndroid/6674587c9c91cce3faca2eb69cd48091" target="_blank">View Code</a>|
+
 
 ```dart
   @override
