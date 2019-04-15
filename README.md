@@ -697,8 +697,13 @@ class DropDownItemModel {
 
 |     Simple Text (Line Indicator)     |     Simple Text (Backround Indicator)    |
 |--------------------------------------|------------------------------------------|
-|<a href="https://imgur.com/NVFRLJj"><img src="https://i.imgur.com/NVFRLJj.png" title="source: imgur.com" /></a>|<a href="https://imgur.com/EZav2GR"><img src="https://i.imgur.com/EZav2GR.png" title="source: imgur.com" />|
+|<a href="https://imgur.com/6vclecU"><img src="https://i.imgur.com/6vclecU.jpg" title="source: imgur.com" /></a>|<a href="https://imgur.com/Tj3Cgr1"><img src="https://i.imgur.com/Tj3Cgr1.jpg" title="source: imgur.com" /></a>|
 |<a href="https://gist.github.com/TakeoffAndroid/40745aef287997f7e55c34f0de857f43j">View Code</a>|<a href="https://gist.github.com/TakeoffAndroid/012fa114639727e8ccbf4f3efe4288e2">View Code</a>|
+
+|     Icon Text (Line Indicator)     |     Icon Text (Backround Indicator)    |
+|--------------------------------------|------------------------------------------|
+|<a href="https://imgur.com/zkMk0Vj"><img src="https://i.imgur.com/zkMk0Vj.jpg" title="source: imgur.com" /></a>|<a href="https://imgur.com/X6NGwIB"><img src="https://i.imgur.com/X6NGwIB.jpg" title="source: imgur.com" /></a>|
+|<a href="https://gist.github.com/TakeoffAndroid/504a698487777f9df3c02d84542a8ee2">View Code</a>|<a href="https://gist.github.com/TakeoffAndroid/f24c0b968980194127ce90b98881e872">View Code</a>|
 
 ```dart
   @override
