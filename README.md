@@ -40,6 +40,7 @@
     - [TextFormField](#textformfield)
   - [DropdownButton](#dropdownbutton)
   - [Navigation Drawer](#navigation-drawer)
+  - [Tab Bar View](#Tab-Bar-View)
 
  - [Utilities](#utilities)
   
