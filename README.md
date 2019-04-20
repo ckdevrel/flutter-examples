@@ -503,7 +503,7 @@ ListView.separated(
 
 ### Card
 
-<a href="https://imgur.com/PHyWdS8"><img src="https://i.imgur.com/PHyWdS8.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/HO0D2Cx"><img src="https://i.imgur.com/HO0D2Cx.jpg" title="source: imgur.com" /></a>
 
 ```dart
 ListView.builder(
