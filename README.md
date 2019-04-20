@@ -27,6 +27,7 @@
   - [ListView](#listview)
     - [Simple](#simple)
     - [Divider](#divider)
+    - [Card](#card)
 
   - [Text](#text)
   - [Icon](#icon)
@@ -499,6 +500,20 @@ ListView.separated(
         Divider(),
     itemCount: names.length),
 ```
+
+### Card
+
+<a href="https://imgur.com/PHyWdS8"><img src="https://i.imgur.com/PHyWdS8.jpg" title="source: imgur.com" /></a>
+
+```dart
+ListView.builder(
+  itemCount: names.length,
+  itemBuilder: (BuildContext context, int position) {
+    var name = names[position];
+    return Card(margin: EdgeInsets.fromLTRB(8, 4, 8, 4),child: ListTile(title: Text(name)));
+  })
+```
+
 ## Text
 <a href="https://imgur.com/yZPgBPy"><img src="https://imgur.com/yZPgBPy.png" title="source: imgur.com"></a>
 
