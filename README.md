@@ -24,6 +24,10 @@
   - [Stack](#stack)
   - [Wrap](#wrap)
   - [Positioned](#positioned)
+  - [ListView](#listview)
+    - [Simple](#simple)
+    - [Divider](#divider)
+
   - [Text](#text)
   - [Icon](#icon)
 
@@ -452,6 +456,49 @@ ConstrainedBox(
 )
 ```  
 
+## ListView
+### Simple
+
+<a href="https://imgur.com/90iV7zG"><img src="https://i.imgur.com/90iV7zG.jpg" title="source: imgur.com" /></a>
+
+```dart
+  @override
+  Widget build(BuildContext context) {
+    List<String> names = ['Alpha', 'Beta', 'Cupcake', 'Donut', 'Eclair',
+    'Froyo', 'Ginger bread', 'Honey comb', 'Ice cream sandwich', 'Jelly bean',
+    'Kitkat', 'Lollipop', 'Marshmallow', 'Nougat', 'Oreo', 'Pie'
+    ];
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: new Scaffold(
+        appBar: AppBar(title: Text('ListView')),
+          body: Center(
+            child:
+            new ListView.builder(
+                itemCount: names.length,
+                itemBuilder: (BuildContext context, int position) {
+                  var name = names[position];
+                  return ListTile(title: Text(name));
+                }),
+          )),
+    );
+  }
+```
+
+### Divider
+
+<a href="https://imgur.com/qikJgCv"><img src="https://i.imgur.com/qikJgCv.jpg" title="source: imgur.com" /></a>
+
+```dart
+ListView.separated(
+    itemBuilder: (BuildContext context, int position) {
+      var name = names[position];
+      return ListTile(title: Text(name));
+    },
+    separatorBuilder: (BuildContext context, int index) =>
+        Divider(),
+    itemCount: names.length),
+```
 ## Text
 <a href="https://imgur.com/yZPgBPy"><img src="https://imgur.com/yZPgBPy.png" title="source: imgur.com"></a>
 
