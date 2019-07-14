@@ -687,7 +687,65 @@ class DropDownItemModel {
   DropDownItemModel({this.versionName});
 }
 ```
+### Radio Button
 
+<a href="https://imgur.com/M8yfHkY"><img src="https://i.imgur.com/M8yfHkY.png" title="source: imgur.com" /></a>
+
+```dart
+enum Gender { MALE, FEMALE, OTHER }
+
+class RadioButton extends StatefulWidget {
+  @override
+  _RadioButtonState createState() => _RadioButtonState();
+}
+
+class _RadioButtonState extends State<RadioButton> {
+  Gender _genderValue = Gender.MALE;
+
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: <Widget>[
+            RadioListTile(
+              title: const Text('Male'),
+              value: Gender.MALE,
+              groupValue: _genderValue,
+              onChanged: (Gender value) {
+                setState(() {
+                  _genderValue = value;
+                });
+              },
+            ),
+            RadioListTile(
+              title: const Text('Female'),
+                value: Gender.FEMALE,
+                groupValue: _genderValue,
+                onChanged: (Gender value) {
+                  setState(() {
+                    _genderValue = value;
+                  });
+                },
+            ),
+            RadioListTile(
+              title: const Text('Other'),
+              value: Gender.OTHER,
+              groupValue: _genderValue,
+              onChanged: (Gender value) {
+                setState(() {
+                  _genderValue = value;
+                });
+              },
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+```
 ## Navigation Drawer
 
 <a href="https://imgur.com/yG6vIxa"><img src="https://i.imgur.com/yG6vIxa.jpg" title="source: imgur.com" /></a>
