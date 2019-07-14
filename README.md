@@ -28,7 +28,6 @@
     - [Simple](#simple)
     - [Divider](#divider)
     - [Card](#card)
-
   - [Text](#text)
   - [Icon](#icon)
 
@@ -40,6 +39,8 @@
     - [Floating Action Button](#floating-action-button)
     - [DropdownButton](#dropdownbutton)
     - [Radio Button](#radio-button)
+    	- [Vertical](#vertical)   
+        - [Horizontal](#horizontal)   
   - [Input Field](#input-field)
   	- [TextField](#textfield)
     	- [Under Line Style ](#under-line-style )   
@@ -689,9 +690,13 @@ class DropDownItemModel {
 ```
 ### Radio Button
 
+#### Vertical
+
 <a href="https://imgur.com/yIyZuth"><img src="https://i.imgur.com/yIyZuth.png" title="source: imgur.com" /></a>
 
 ```dart
+import 'package:flutter/material.dart';
+
 enum Gender { MALE, FEMALE, OTHER }
 
 class RadioButton extends StatefulWidget {
@@ -746,6 +751,94 @@ class _RadioButtonState extends State<RadioButton> {
   }
 }
 ```
+
+#### Horizontal
+
+<a href="https://imgur.com/hzfBRWG"><img src="https://i.imgur.com/hzfBRWG.png" title="source: imgur.com" /></a>
+
+```dart
+import 'package:flutter/material.dart';
+
+enum Gender { MALE, FEMALE, OTHER }
+
+class RadioButtonHorizontal extends StatefulWidget {
+  @override
+  _RadioButtonHorizontalState createState() => _RadioButtonHorizontalState();
+}
+
+class _RadioButtonHorizontalState extends State<RadioButtonHorizontal> {
+  Gender _genderValue = Gender.MALE;
+
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        body: Center(
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: <Widget>[
+              FlatButton.icon(
+                label: const Text('Male'),
+                icon: Radio(
+                  value: Gender.MALE,
+                  groupValue: _genderValue,
+                  onChanged: (Gender value) {
+                    setState(() {
+                      _genderValue = value;
+                    });
+                  },
+                ),
+                onPressed: () {
+                  setState(() {
+                    _genderValue = Gender.MALE;
+                  });
+                },
+              ),
+              FlatButton.icon(
+                label: const Text('Female'),
+                icon: Radio(
+                  value: Gender.FEMALE,
+                  groupValue: _genderValue,
+                  onChanged: (Gender value) {
+                    setState(() {
+                      _genderValue = value;
+                    });
+                  },
+                ),
+                onPressed: () {
+                  setState(() {
+                    _genderValue = Gender.FEMALE;
+                  });
+                },
+              ),
+              FlatButton.icon(
+                label: const Text('Others'),
+                icon: Radio(
+                  value: Gender.OTHER,
+                  groupValue: _genderValue,
+                  onChanged: (Gender value) {
+                    setState(() {
+                      _genderValue = value;
+                    });
+                  },
+                ),
+                onPressed: () {
+                  setState(() {
+                    _genderValue = Gender.OTHER;
+                  });
+                },
+              )
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+
+```
+
 ## Navigation Drawer
 
 <a href="https://imgur.com/yG6vIxa"><img src="https://i.imgur.com/yG6vIxa.jpg" title="source: imgur.com" /></a>
