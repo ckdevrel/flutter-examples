@@ -473,11 +473,11 @@ ConstrainedBox(
     ];
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: new Scaffold(
+      home: Scaffold(
         appBar: AppBar(title: Text('ListView')),
           body: Center(
             child:
-            new ListView.builder(
+               ListView.builder(
                 itemCount: names.length,
                 itemBuilder: (BuildContext context, int position) {
                   var name = names[position];
@@ -520,9 +520,9 @@ ListView.builder(
 <a href="https://imgur.com/yZPgBPy"><img src="https://imgur.com/yZPgBPy.png" title="source: imgur.com"></a>
 
 ```dart
-new Text(
+Text(
   "Flutter is Awesome",
-  style: new TextStyle(
+  style: TextStyle(
       fontSize: 18.0,
       color: Colors.greenAccent,
       fontWeight: FontWeight.w500,
