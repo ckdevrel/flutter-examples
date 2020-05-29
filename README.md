@@ -557,8 +557,7 @@ MaterialButton(
   splashColor: Colors.blue[900],
   disabledColor: Colors.grey,
   disabledTextColor: Colors.white,
-  highlightColor: Colors.orangeAccent,
-  child: Text('Flat Button'),
+  child: Text('Material Button'),
 ),
 ``` 
 
@@ -571,13 +570,12 @@ FlatButton(
   onPressed: () {
     debugPrint('I am Awesome');
   },
-  shape: const StadiumBorder(),
-  textColor: Colors.black,
-  color: Colors.blue[300],
-  splashColor: Colors.blue[900],
+  textColor: Colors.white,
+  color: Colors.blueAccent,
   disabledColor: Colors.grey,
   disabledTextColor: Colors.white,
-  child: Text('Material Button'),
+  highlightColor: Colors.orangeAccent,
+  child: Text('Flat Button'),
 ),
 ```    
 
