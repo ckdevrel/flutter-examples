@@ -541,6 +541,26 @@ new Icon(Icons.flight_takeoff, color: Colors.blueAccent, size: 96.0),
 
 ## Button
 
+### Material Button
+
+<a href="https://imgur.com/x30XGUf"><img src="https://i.imgur.com/x30XGUf.png" title="source: imgur.com" /></a>
+
+```dart
+MaterialButton(
+  onPressed: () {
+    debugPrint('I am a material button');
+  },
+  shape: const StadiumBorder(),
+  textColor: Colors.black,
+  color: Colors.blue[300],
+  splashColor: Colors.blue[900],
+  disabledColor: Colors.grey,
+  disabledTextColor: Colors.white,
+  highlightColor: Colors.orangeAccent,
+  child: Text('Flat Button'),
+),
+``` 
+
 ### Flat Button
 
 <a href="https://imgur.com/x30XGUf"><img src="https://i.imgur.com/x30XGUf.png" title="source: imgur.com" /></a>
@@ -605,7 +625,7 @@ IconButton(
  
 
 ```dart
-return Scaffold(
+Scaffold(
   floatingActionButton: new FloatingActionButton(
     mini: true,
     child: new Icon(Icons.add),
