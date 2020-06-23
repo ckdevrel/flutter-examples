@@ -48,6 +48,8 @@
     	- [Outer Line Style ](#outer-line-style ) 
     - [TextFormField](#textformfield)
   - [Navigation Drawer](#navigation-drawer)
+  - [Sliver List](#sliver-list)
+
 
  - [Utilities](#utilities)
   
@@ -999,6 +1001,39 @@ TextFormField(
     labelText: 'Type your password',
     labelStyle: TextStyle(color: Colors.yellow))
 )
+```
+## Sliver List
+
+![slivers2](https://user-images.githubusercontent.com/46351318/85413440-74530900-b588-11ea-8616-059b15cf1a49.gif)
+
+
+* SliverList takes a delegate parameter which provides the items in the list as they scroll into view. 
+
+* You can specify the actual list of children with a SliverChildListDelegate Or build them lazily with a SliverChildBuilderDelegate.
+
+```
+SliverList(
+    delegate: SliverChildListDelegate(
+      [
+        Container(color: Colors.red, height: 150.0),
+        Container(color: Colors.purple, height: 150.0),
+        Container(color: Colors.green, height: 150.0),
+      ],
+    ),
+);
+// This builds an infinite scrollable list of differently colored 
+// Containers.
+SliverList(
+    delegate: SliverChildBuilderDelegate((BuildContext context, int index) {
+      // To convert this infinite list to a list with three items,
+      // uncomment the following line:
+      // if (index > 3) return null;
+      return Container(color: getRandomColor(), height: 150.0);
+    },
+    // Or, uncomment the following line:
+    // childCount: 3,
+  ),
+);
 ```
 
 > **References:** 
